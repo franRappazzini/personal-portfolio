@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Image, Row } from "react-bootstrap";
+import { Card, Row } from "react-bootstrap";
 import javascript from "../../assets/img/javascript.svg";
 import html from "../../assets/img/html.svg";
 import css from "../../assets/img/css.svg";
@@ -16,7 +16,10 @@ import ItemSkill from "./ItemSkill";
 
 function Skills() {
   return (
-    <section className="d-flex flex-column align-items-center">
+    <section
+      className="d-flex flex-column align-items-center"
+      data-aos="fade-up"
+    >
       <section className="d-flex">
         <Letter letter="S" />
         <Letter letter="k" />
