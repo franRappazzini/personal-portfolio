@@ -13,7 +13,7 @@ function MyDates() {
 
   return (
     <Row>
-      <Col xs={12} md={6} className="i" data-aos="fade-right">
+      <Col xs={12} md={6} className="i" data-aos="zoom-in-up">
         <section className="d-flex">
           <Letter letter="R" />
           <Letter letter="a" />
@@ -41,12 +41,11 @@ function MyDates() {
 
         <p className="m-0">FrontEnd Developer</p>
       </Col>
-
       <Col
         xs={12}
         md={6}
-        className="d-flex align-items-center justify-content-center "
-        data-aos="fade-left"
+        className="d-flex align-items-center justify-content-center mb-5"
+        data-aos="zoom-in-up"
       >
         <Row>
           <Col xs={4} className="d-flex justify-content-center">
@@ -80,6 +79,14 @@ function MyDates() {
             </a>
           </Col>
         </Row>
+      </Col>
+
+      <Col xs={12}>
+        <div class="scroll-downs">
+          <div class="mousey">
+            <div class="scroller"></div>
+          </div>
+        </div>
       </Col>
     </Row>
   );

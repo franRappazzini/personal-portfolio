@@ -1,10 +1,11 @@
 /* .main__container {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  width: 100vw;
   height: 100vh;
-} */
+}
 
 .section__container {
-  /* height: 100vh; */
-  /* scroll-snap-align: start; */
-}
+  height: 100vh;
+  scroll-snap-align: start;
+} */

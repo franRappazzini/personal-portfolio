@@ -1,0 +1,5 @@
+.project__article:hover {
+  box-shadow: 0 0 10px rgb(10, 10, 10);
+  transform: translateY(-5px);
+  transition: 0.4s;
+}
