@@ -1,0 +1,24 @@
+.i p {
+  letter-spacing: 2px;
+}
+
+.i section {
+  /* height: min-content; */
+}
+
+.img__redes {
+  width: 5rem;
+}
+
+.img__redes:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .i {
+    margin-bottom: 2rem;
+  }
+  .img__redes {
+    width: 4rem;
+  }
+}

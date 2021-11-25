@@ -1,0 +1,22 @@
+.letter__hover {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  transition: all 0.2s;
+  height: fit-content;
+}
+
+.letter__hover:hover {
+  color: #e41f1f;
+  transform: scale(1.3);
+}
+
+.letter__hover:active {
+  transform: scale(0.7);
+}
+
+@media only screen and (max-width: 768px) {
+  .letter__hover {
+    font-size: 3rem;
+  }
+}
