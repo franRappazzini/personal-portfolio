@@ -14,8 +14,6 @@ function MyDates() {
   return (
     <Row>
       <Col xs={12} md={6} className="i" data-aos="fade-right">
-        {/* <h1 className="m-0">Rappazzini</h1> */}
-
         <section className="d-flex">
           <Letter letter="R" />
           <Letter letter="a" />
