@@ -4,6 +4,7 @@ import screenReact from "../../assets/img/screenReact.png";
 import screenMessage from "../../assets/img/screenMessage.png";
 import screenMaga from "../../assets/img/screenMaga.png";
 import Letter from "../Letter/Letter";
+import "./Project.css";
 
 function ProjectsContainer() {
   const projects = [
@@ -34,7 +35,7 @@ function ProjectsContainer() {
 
   return (
     <section>
-      <section className="d-flex justify-content-center">
+      <section className="d-flex justify-content-center" data-aos="zoom-in-up">
         <Letter letter="P" />
         <Letter letter="r" />
         <Letter letter="o" />
@@ -45,7 +46,7 @@ function ProjectsContainer() {
         <Letter letter="s" />
       </section>
 
-      <section className="d-flex justify-content-between flex-wrap">
+      <section className="project__items d-flex flex-wrap">
         {projects.map((p) => (
           <Project key={p.title} {...p} />
         ))}
@@ -54,9 +55,10 @@ function ProjectsContainer() {
       <div className="d-flex justify-content-center mt-3">
         <a
           href="https://github.com/franRappazzini"
-          className="btn btn-outline-light"
+          className="btn btn-outline-light mb-3"
           target="_blank"
           rel="noopener noreferrer"
+          // data-aos="zoom-in-up"
         >
           Ver más
         </a>

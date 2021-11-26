@@ -1,0 +1,14 @@
+.img__skill {
+  width: 6rem;
+}
+
+.img__skill:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+  .img__skill {
+    width: 100%;
+  }
+}

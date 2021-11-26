@@ -10,6 +10,7 @@ function Project({ img, title, description, link, githubLink }) {
       style={{ width: "18rem" }}
       bg="dark"
       className="project__article mb-3"
+      data-aos="zoom-in-up"
     >
       <a href={link} target="_blank" rel="noopener noreferrer">
         <Card.Img
@@ -31,7 +32,7 @@ function Project({ img, title, description, link, githubLink }) {
           rel="noopener noreferrer"
           className="me-2"
         >
-          <img src={github} alt="github" width="20" />
+          <img src={github} alt="github" width="25" />
         </a>
         <a
           href={link}
@@ -40,7 +41,7 @@ function Project({ img, title, description, link, githubLink }) {
           rel="noopener noreferrer"
           className="ms-2"
         >
-          <img src={exportLink} alt="github" width="20" />
+          <img src={exportLink} alt="github" width="25" />
         </a>
       </Card.Footer>
     </Card>

@@ -1,17 +1,20 @@
 import React from "react";
-import { Image } from "react-bootstrap";
+import { Col, Image } from "react-bootstrap";
+import "./ItemSkill.css";
 
 function ItemSkill({ href, img, title }) {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer" align="center">
-      <Image
-        src={img}
-        title={title}
-        width="100"
-        alt={title}
-        style={{ width: "100%", margin: "0.5rem 0" }}
-      />
-    </a>
+    <Col xs={4} md={2}>
+      <a href={href} target="_blank" rel="noopener noreferrer" align="center">
+        <Image
+          src={img}
+          title={title}
+          width="100"
+          alt={title}
+          className="img__skill my-2"
+        />
+      </a>
+    </Col>
   );
 }
 

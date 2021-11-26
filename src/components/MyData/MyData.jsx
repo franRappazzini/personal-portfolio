@@ -70,7 +70,7 @@ function MyDates() {
           </Col>
           <Col xs={4} className="d-flex justify-content-center">
             <a
-              href="https://drive.google.com/file/d/1GX4iq0pK2riRnCKBVxpKE-OUTmTaUSJ-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1nfUtMp5guQTq_dDQvsCmSO_hqDutaY6J/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               title="CV"
@@ -81,7 +81,7 @@ function MyDates() {
         </Row>
       </Col>
 
-      <Col xs={12}>
+      <Col xs={12} data-aos="zoom-in-up">
         <div class="scroll-downs">
           <div class="mousey">
             <div class="scroller"></div>

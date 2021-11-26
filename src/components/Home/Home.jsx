@@ -1,4 +1,5 @@
 import React from "react";
+import FormContact from "../ContactMe/FormContact";
 import MyDates from "../MyData/MyData";
 import ProjectsContainer from "../Projects/ProjectsContainer";
 import Skills from "../Skills/Skills";
@@ -13,7 +14,6 @@ function Home() {
       >
         <MyDates />
       </section>
-
       <section
         className="d-flex flex-column justify-content-center section__container"
         style={{ height: "100vh" }}
@@ -21,11 +21,15 @@ function Home() {
         <Skills />
       </section>
 
+      {/* <section className=" section__container"> */}
+      <ProjectsContainer />
+      {/* </section> */}
+
       <section
         className="d-flex flex-column justify-content-center section__container"
-        style={{ height: "auto" }}
+        style={{ height: "100vh" }}
       >
-        <ProjectsContainer />
+        <FormContact />
       </section>
     </main>
   );

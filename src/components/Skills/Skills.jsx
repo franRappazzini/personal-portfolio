@@ -16,11 +16,8 @@ import ItemSkill from "./ItemSkill";
 
 function Skills() {
   return (
-    <section
-      className="d-flex flex-column align-items-center"
-      data-aos="fade-up"
-    >
-      <section className="d-flex">
+    <section className="d-flex flex-column align-items-center">
+      <section className="d-flex" data-aos="fade-up">
         <Letter letter="S" />
         <Letter letter="k" />
         <Letter letter="i" />
@@ -29,11 +26,11 @@ function Skills() {
         <Letter letter="s" />
       </section>
 
-      <section className="d-flex justify-content-center">
+      <section className="d-flex justify-content-center" data-aos="fade-up">
         <Card bg="dark" style={{ width: "80%" }} className="mb-2">
           <Card.Body>
             <Card.Text>
-              <Row xs={3} md={6}>
+              <Row>
                 <ItemSkill
                   href="https://developer.mozilla.org/es/docs/Web/JavaScript"
                   img={javascript}
