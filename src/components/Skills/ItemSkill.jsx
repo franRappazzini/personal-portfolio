@@ -9,7 +9,6 @@ function ItemSkill({ href, img, title }) {
         <Image
           src={img}
           title={title}
-          width="100"
           alt={title}
           className="img__skill my-2"
         />

@@ -13,7 +13,7 @@ function MyDates() {
 
   return (
     <section
-      className="d-flex flex-column justify-content-center section__container"
+      className="d-flex flex-column justify-content-center"
       style={{ height: "100vh" }}
     >
       <Row>

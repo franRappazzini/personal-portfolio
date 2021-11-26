@@ -58,7 +58,7 @@ function ProjectsContainer() {
           className="btn btn-outline-light mb-3"
           target="_blank"
           rel="noopener noreferrer"
-          // data-aos="zoom-in-up"
+          data-aos="zoom-in-up"
         >
           Ver más
         </a>

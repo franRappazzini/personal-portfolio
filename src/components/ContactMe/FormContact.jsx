@@ -2,11 +2,12 @@ import Button from "@restart/ui/esm/Button";
 import React from "react";
 import { Col, Form, Row } from "react-bootstrap";
 import Letter from "../Letter/Letter";
+import "./FormContact.css";
 
 function FormContact() {
   return (
     <section
-      className="d-flex flex-column justify-content-center section__container"
+      className="d-flex flex-column justify-content-center"
       style={{ height: "100vh" }}
     >
       <section className="d-flex justify-content-center" data-aos="fade-up">
@@ -33,11 +34,7 @@ function FormContact() {
                 type="text"
                 name="name"
                 placeholder="Name"
-                style={{
-                  backgroundColor: "#212529",
-                  borderColor: "black",
-                  color: "white",
-                }}
+                className="form__control"
                 required
               />
             </Form.Group>
@@ -49,11 +46,7 @@ function FormContact() {
                 type="email"
                 name="email"
                 placeholder="your@email.com"
-                style={{
-                  backgroundColor: "#212529",
-                  borderColor: "black",
-                  color: "white",
-                }}
+                className="form__control"
                 required
               />
             </Form.Group>
@@ -68,16 +61,12 @@ function FormContact() {
                 as="textarea"
                 name="textarea"
                 rows={3}
-                style={{
-                  backgroundColor: "#212529",
-                  borderColor: "black",
-                  color: "white",
-                }}
+                className="form__control"
                 required
               />
             </Form.Group>
             <Button className="btn btn-outline-light" type="submit">
-              Submit
+              Send
             </Button>
           </Col>
         </Row>
