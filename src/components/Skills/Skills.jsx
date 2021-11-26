@@ -1,22 +1,25 @@
 import React from "react";
 import { Card, Row } from "react-bootstrap";
-import javascript from "../../assets/img/javascript.svg";
-import html from "../../assets/img/html.svg";
-import css from "../../assets/img/css.svg";
-import react from "../../assets/img/react.svg";
-import jquery from "../../assets/img/jquery.svg";
-import sass from "../../assets/img/sass.svg";
-import bootstrap from "../../assets/img/bootstrap.svg";
-import ajax from "../../assets/img/ajax.svg";
-import npm from "../../assets/img/npm.svg";
-import git from "../../assets/img/git.svg";
-import firebase from "../../assets/img/firebase.svg";
+import javascript from "../../assets/svg/javascript.svg";
+import html from "../../assets/svg/html.svg";
+import css from "../../assets/svg/css.svg";
+import react from "../../assets/svg/react.svg";
+import jquery from "../../assets/svg/jquery.svg";
+import sass from "../../assets/svg/sass.svg";
+import bootstrap from "../../assets/svg/bootstrap.svg";
+import ajax from "../../assets/svg/ajax.svg";
+import npm from "../../assets/svg/npm.svg";
+import git from "../../assets/svg/git.svg";
+import firebase from "../../assets/svg/firebase.svg";
 import Letter from "../Letter/Letter";
 import ItemSkill from "./ItemSkill";
 
 function Skills() {
   return (
-    <section className="d-flex flex-column align-items-center">
+    <section
+      className="d-flex flex-column justify-content-center align-items-center section__container"
+      style={{ height: "100vh" }}
+    >
       <section className="d-flex" data-aos="fade-up">
         <Letter letter="S" />
         <Letter letter="k" />

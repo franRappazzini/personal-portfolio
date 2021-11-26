@@ -4,12 +4,11 @@ import { Col, Form, Row } from "react-bootstrap";
 import Letter from "../Letter/Letter";
 
 function FormContact() {
-  function handleSubmit(e) {
-    e.preventDefault();
-  }
-
   return (
-    <>
+    <section
+      className="d-flex flex-column justify-content-center section__container"
+      style={{ height: "100vh" }}
+    >
       <section className="d-flex justify-content-center" data-aos="fade-up">
         <Letter letter="C" />
         <Letter letter="o" />
@@ -21,7 +20,6 @@ function FormContact() {
       </section>
 
       <Form
-        onSubmit={handleSubmit}
         action="https://formsubmit.co/fran_rappa@outlook.com"
         method="POST"
         className="mb-3"
@@ -33,6 +31,7 @@ function FormContact() {
               <Form.Label>Name</Form.Label>
               <Form.Control
                 type="text"
+                name="name"
                 placeholder="Name"
                 style={{
                   backgroundColor: "#212529",
@@ -44,10 +43,11 @@ function FormContact() {
             </Form.Group>
           </Col>
           <Col xs={12} md={6}>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
+            <Form.Group className="mb-3" controlId="email">
               <Form.Label>Email</Form.Label>
               <Form.Control
                 type="email"
+                name="email"
                 placeholder="your@email.com"
                 style={{
                   backgroundColor: "#212529",
@@ -66,6 +66,7 @@ function FormContact() {
               <Form.Label>Message</Form.Label>
               <Form.Control
                 as="textarea"
+                name="textarea"
                 rows={3}
                 style={{
                   backgroundColor: "#212529",
@@ -81,7 +82,7 @@ function FormContact() {
           </Col>
         </Row>
       </Form>
-    </>
+    </section>
   );
 }
 

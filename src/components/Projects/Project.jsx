@@ -1,8 +1,8 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import "./Project.css";
-import github from "../../assets/img/github.svg";
-import exportLink from "../../assets/img/exportLink.svg";
+import github from "../../assets/svg/github.svg";
+import exportLink from "../../assets/svg/exportLink.svg";
 
 function Project({ img, title, description, link, githubLink }) {
   return (

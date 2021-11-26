@@ -4,7 +4,6 @@
   letter-spacing: 3px;
   transition: all 0.2s;
   height: fit-content;
-  /* pointer-events: fill; */
 }
 
 .letter__hover:hover {
