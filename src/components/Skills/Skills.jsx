@@ -15,6 +15,64 @@ import Letter from "../Letter/Letter";
 import ItemSkill from "./ItemSkill";
 
 function Skills() {
+  const skills = [
+    {
+      title: "Javascript",
+      img: javascript,
+      href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    },
+    {
+      title: "HTML",
+      img: html,
+      href: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    },
+    {
+      title: "CSS",
+      img: css,
+      href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    },
+    {
+      title: "React JS",
+      img: react,
+      href: "https://reactjs.org/",
+    },
+    {
+      title: "jQuery",
+      img: jquery,
+      href: "https://jquery.com/",
+    },
+    {
+      title: "Sass",
+      img: sass,
+      href: "https://sass-lang.com/",
+    },
+    {
+      title: "Bootstrap",
+      img: bootstrap,
+      href: "https://getbootstrap.com/",
+    },
+    {
+      title: "AJAX",
+      img: ajax,
+      href: "https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX",
+    },
+    {
+      title: "npm",
+      img: npm,
+      href: "https://www.npmjs.com/",
+    },
+    {
+      title: "Git",
+      img: git,
+      href: "https://git-scm.com/",
+    },
+    {
+      title: "Firebase",
+      img: firebase,
+      href: "https://firebase.google.com/",
+    },
+  ];
+
   return (
     <section
       className="d-flex flex-column justify-content-center align-items-center section__container"
@@ -34,57 +92,9 @@ function Skills() {
           <Card.Body>
             <Card.Text>
               <Row>
-                <ItemSkill
-                  href="https://developer.mozilla.org/es/docs/Web/JavaScript"
-                  img={javascript}
-                  title="JavaScript"
-                />
-                <ItemSkill
-                  href="https://developer.mozilla.org/es/docs/Web/HTML"
-                  img={html}
-                  title="HTML"
-                />
-                <ItemSkill
-                  href="https://developer.mozilla.org/es/docs/Web/CSS"
-                  img={css}
-                  title="CSS"
-                />
-                <ItemSkill
-                  href="https://reactjs.org/"
-                  img={react}
-                  title="React"
-                />
-                <ItemSkill
-                  href="https://jquery.com/"
-                  img={jquery}
-                  title="jQuery"
-                />
-                <ItemSkill
-                  href="https://sass-lang.com/"
-                  img={sass}
-                  title="Sass"
-                />
-                <ItemSkill
-                  href="https://getbootstrap.com/"
-                  img={bootstrap}
-                  title="Bootstrap"
-                />
-                <ItemSkill
-                  href="https://developer.mozilla.org/es/docs/Web/Guide/AJAX"
-                  img={ajax}
-                  title="AJAX"
-                />
-                <ItemSkill
-                  href="https://www.npmjs.com/"
-                  img={npm}
-                  title="npm"
-                />
-                <ItemSkill href="https://git-scm.com/" img={git} title="Git" />
-                <ItemSkill
-                  href="https://firebase.google.com/"
-                  img={firebase}
-                  title="Firebase"
-                />
+                {skills.map((s) => (
+                  <ItemSkill key={s.title} {...s} />
+                ))}
               </Row>
             </Card.Text>
           </Card.Body>
