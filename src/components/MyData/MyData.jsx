@@ -8,7 +8,7 @@ import linkedin from "../../assets/svg/linkedin.svg";
 import github from "../../assets/svg/github.svg";
 import cv from "../../assets/svg/cv.svg";
 
-function MyDates() {
+function MyData() {
   AOS.init();
 
   return (
@@ -74,7 +74,7 @@ function MyDates() {
             </Col>
             <Col xs={4} className="d-flex justify-content-center">
               <a
-                href="https://drive.google.com/file/d/1nfUtMp5guQTq_dDQvsCmSO_hqDutaY6J/view?usp=sharing"
+                href="https://drive.google.com/file/d/1wYvPH9kgS6agaPZG49usHeHlTLFWef09/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="CV"
@@ -97,4 +97,4 @@ function MyDates() {
   );
 }
 
-export default MyDates;
+export default MyData;
