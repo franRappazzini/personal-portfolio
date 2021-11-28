@@ -2,3 +2,16 @@ body {
   background-color: #17191b;
   color: rgb(235, 235, 235);
 }
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(235, 235, 235);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+}
