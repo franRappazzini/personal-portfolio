@@ -86,6 +86,7 @@ function MyData() {
         </Col>
 
         <Col xs={12} data-aos="zoom-in-up">
+          {/* mouse scroll icon by: https://codepen.io/2xsamurai/pen/WwmjKQ */}
           <div className="scroll-downs">
             <div className="mousey">
               <div className="scroller"></div>
