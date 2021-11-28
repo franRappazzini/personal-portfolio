@@ -9,7 +9,7 @@ Portfolio creado con React JS.
 * [React JS](https://reactjs.org/)
 * [Bootstrap React](https://react-bootstrap.github.io/)
 
-👉🏼[Toque para ver proyecto](https://rappazzini-francisco.vercel.app/)👈🏼
+👉🏼[Toque para ver el portfolio](https://rappazzini-francisco.vercel.app/)👈🏼
 
 # Getting Started with Create React App
 
