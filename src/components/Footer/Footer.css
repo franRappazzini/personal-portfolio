@@ -1,7 +1,14 @@
 .footer__link {
   color: rgb(235, 235, 235);
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  transition: background-size 0.5s;
 }
 
 .footer__link:hover {
   color: rgb(235, 235, 235);
+  background-size: 100% 1px;
 }

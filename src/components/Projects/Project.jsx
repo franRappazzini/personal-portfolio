@@ -12,11 +12,17 @@ function Project({ img, title, description, link, githubLink }) {
       className="project__article mb-3"
       data-aos="zoom-in-up"
     >
-      <a href={link} target="_blank" rel="noopener noreferrer">
+      <a
+        href={link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="link__img"
+      >
         <Card.Img
           variant="top"
           src={img}
-          style={{ height: "9rem", objectFit: "cover" }}
+          className="img__project"
+          title="Ver sitio"
         />
       </a>
 
@@ -30,7 +36,7 @@ function Project({ img, title, description, link, githubLink }) {
           title="Ver en GitHub"
           target="_blank"
           rel="noopener noreferrer"
-          className="me-2"
+          className="me-2 img__footer--project"
         >
           <img src={github} alt="github" width="25" />
         </a>
@@ -39,7 +45,7 @@ function Project({ img, title, description, link, githubLink }) {
           title="Ver sitio"
           target="_blank"
           rel="noopener noreferrer"
-          className="ms-2"
+          className="ms-2 img__footer--project"
         >
           <img src={exportLink} alt="github" width="25" />
         </a>

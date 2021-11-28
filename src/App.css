@@ -1,6 +1,16 @@
 body {
   background-color: #17191b;
   color: rgb(235, 235, 235);
+  cursor: none;
+}
+
+a,
+label,
+input,
+textarea,
+div,
+p {
+  cursor: none;
 }
 
 ::-webkit-scrollbar {

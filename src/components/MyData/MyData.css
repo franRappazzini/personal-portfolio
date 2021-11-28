@@ -7,16 +7,12 @@
   letter-spacing: 2px;
 }
 
-.i section {
-  /* height: min-content; */
-}
-
 .img__redes {
   width: 5rem;
 }
 
 .img__redes:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: 0.4s;
 }
 

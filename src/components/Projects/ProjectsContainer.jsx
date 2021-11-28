@@ -55,7 +55,7 @@ function ProjectsContainer() {
       <div className="d-flex justify-content-center mt-3">
         <a
           href="https://github.com/franRappazzini"
-          className="btn btn-outline-light mb-3"
+          className="btn btn-outline-light mb-3 btn__ver-mas"
           target="_blank"
           rel="noopener noreferrer"
           data-aos="zoom-in-up"

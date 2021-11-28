@@ -9,3 +9,7 @@
   border-color: black;
   color: white;
 }
+
+.btn__submit:hover {
+  cursor: none;
+}

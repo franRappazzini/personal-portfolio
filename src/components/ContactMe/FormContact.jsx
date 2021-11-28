@@ -65,7 +65,7 @@ function FormContact() {
                 required
               />
             </Form.Group>
-            <Button className="btn btn-outline-light" type="submit">
+            <Button className="btn btn-outline-light btn__submit" type="submit">
               Send
             </Button>
           </Col>

@@ -7,7 +7,13 @@ function Footer() {
       <p className="me-3">© 2021</p>
       <p className="ms-3">
         Created by{" "}
-        <a href="https://github.com/franRappazzini" className="footer__link">
+        <a
+          href="https://github.com/franRappazzini"
+          className="footer__link"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="GitHub"
+        >
           Francisco Rappazzini
         </a>
         .

@@ -1,11 +1,33 @@
 .project__article:hover {
   box-shadow: 0 0 10px rgb(10, 10, 10);
-  /* transform: translateY(-5px); */
-  /* transition: 0.4s; */
+  transition: 0.4s;
 }
 
 .project__items {
   justify-content: space-between;
+}
+
+.link__img {
+  overflow: hidden;
+}
+
+.img__project {
+  height: 9rem;
+  object-fit: cover;
+}
+
+.img__project:hover {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.img__footer--project:hover {
+  transform: scale(1.15);
+  transition: 0.4s;
+}
+
+.btn__ver-mas {
+  cursor: none;
 }
 
 @media only screen and (max-width: 768px) {
