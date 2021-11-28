@@ -2,7 +2,7 @@
 
 Portfolio creado con React JS.
 
-![screenshot portfolio]()
+![screenshot portfolio](./src/assets/img/ScreenshotPreview.png)
 
 ## Dependencias Utilizadas 🛠️
 
