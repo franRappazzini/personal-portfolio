@@ -1,3 +1,16 @@
+# Porfolio personal
+
+Portfolio creado con React JS.
+
+![screenshot portfolio]()
+
+## Dependencias Utilizadas 🛠️
+
+* [React JS](https://reactjs.org/)
+* [Bootstrap React](https://react-bootstrap.github.io/)
+
+👉🏼[Toque para ver proyecto](https://rappazzini-francisco.vercel.app/)👈🏼
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
