@@ -8,8 +8,13 @@ Portfolio creado con React JS.
 
 * [React JS](https://reactjs.org/)
 * [Bootstrap React](https://react-bootstrap.github.io/)
+* [React Sticky Mouse Tooltip](https://www.npmjs.com/package/react-sticky-mouse-tooltip)
 
 👉🏼[Toque para ver el portfolio](https://rappazzini-francisco.vercel.app/)👈🏼
+
+## Creditos 👑
+
+mouse scroll icon by: [https://codepen.io/2xsamurai/pen/WwmjKQ](https://codepen.io/2xsamurai/pen/WwmjKQ)
 
 # Getting Started with Create React App
 
