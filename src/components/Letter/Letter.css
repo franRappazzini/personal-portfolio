@@ -76,5 +76,6 @@
 @media only screen and (max-width: 768px) {
   .letter__titles {
     font-size: 3rem;
+    animation: none;
   }
 }
