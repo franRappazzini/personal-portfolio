@@ -15,7 +15,7 @@ function ProjectsContainer() {
         "Sitio creado con ReactJS para entrega final del curso en Coderhouse",
       githubLink:
         "https://github.com/franRappazzini/Proyecto_Final_React_Coder",
-      link: "https://proyecto-final-react-coder.vercel.app/",
+      link: "https://proyecto-final-react-coder-one.vercel.app/",
     },
     {
       img: screenMessage,
