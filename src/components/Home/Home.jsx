@@ -1,10 +1,11 @@
-import React from "react";
-import MouseTooltip from "react-sticky-mouse-tooltip";
+import "./Home.css";
+
 import FormContact from "../ContactMe/FormContact";
+import MouseTooltip from "react-sticky-mouse-tooltip";
 import MyData from "../MyData/MyData";
 import ProjectsContainer from "../Projects/ProjectsContainer";
+import React from "react";
 import Skills from "../Skills/Skills";
-import "./Home.css";
 
 function Home() {
   return (

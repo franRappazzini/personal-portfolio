@@ -1,10 +1,11 @@
-import React from "react";
-import Project from "./Project";
-import screenReact from "../../assets/img/screenReact.png";
-import screenMessage from "../../assets/img/screenMessage.png";
-import screenMaga from "../../assets/img/screenMaga.png";
-import Letter from "../Letter/Letter";
 import "./Project.css";
+
+import Letter from "../Letter/Letter";
+import Project from "./Project";
+import React from "react";
+import screenMaga from "../../assets/img/screenMaga.png";
+import screenMessage from "../../assets/img/screenMessage.png";
+import screenReact from "../../assets/img/screenReact.png";
 
 function ProjectsContainer() {
   const projects = [
@@ -60,7 +61,7 @@ function ProjectsContainer() {
           rel="noopener noreferrer"
           data-aos="zoom-in-up"
         >
-          Ver más
+          More
         </a>
       </div>
     </section>
