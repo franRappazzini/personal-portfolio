@@ -1,12 +1,14 @@
-import React from "react";
-import { Row, Col, Image } from "react-bootstrap";
-import Letter from "../Letter/Letter";
 import "./MyData.css";
-import AOS from "aos";
 import "aos/dist/aos.css";
-import linkedin from "../../assets/svg/linkedin.svg";
-import github from "../../assets/svg/github.svg";
+
+import { Col, Image, Row } from "react-bootstrap";
+
+import AOS from "aos";
+import Letter from "../Letter/Letter";
+import React from "react";
 import cv from "../../assets/svg/cv.svg";
+import github from "../../assets/svg/github.svg";
+import linkedin from "../../assets/svg/linkedin.svg";
 
 function MyData() {
   AOS.init();
@@ -74,7 +76,7 @@ function MyData() {
             </Col>
             <Col xs={4} className="d-flex justify-content-center">
               <a
-                href="https://drive.google.com/file/d/1yMR-YhTiiX24RoAKBAmsmf5sHDMYoAVx/view?usp=sharing"
+                href="https://drive.google.com/file/d/1X7siKeUOEDtHDQF-r7C4mu6mUn7B7baW/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="CV"
