@@ -3,7 +3,7 @@ import "./Project.css";
 import Letter from "../Letter/Letter";
 import Project from "./Project";
 import React from "react";
-import screenMaga from "../../assets/img/screenMaga.png";
+import screenMarilina from "../../assets/img/screenMarilina.png";
 import screenMessage from "../../assets/img/screenMessage.png";
 import screenReact from "../../assets/img/screenReact.png";
 
@@ -26,11 +26,11 @@ function ProjectsContainer() {
       link: "https://franrappazzini.github.io/MessagesApp/",
     },
     {
-      img: screenMaga,
-      title: "Sitio para Magali",
-      description: "Landing Page creada para Magali Gonzalez",
-      githubLink: "https://github.com/franRappazzini/proyectoMagali",
-      link: "https://www.magaligonzalezoficial.com.ar/",
+      img: screenMarilina,
+      title: "E-commerce para Marilina",
+      description: "Creado con JavaScript, HTML, CSS, Firebase y más",
+      githubLink: "https://github.com/franRappazzini/ecommerce-marilina",
+      link: "https://ropadeportivamf.com.ar/",
     },
   ];
 
