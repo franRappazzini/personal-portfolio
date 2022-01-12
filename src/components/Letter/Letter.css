@@ -5,6 +5,7 @@
   transition: all 0.2s;
   height: fit-content;
   animation: startAnimation 0.8s;
+  user-select: none;
 }
 
 .letter__titles:hover {
