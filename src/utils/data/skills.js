@@ -13,7 +13,7 @@ import sass from "../../assets/svg/sass.svg";
 
 export const skills = [
   {
-    title: "Javascript",
+    title: "JavaScript",
     img: javascript,
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
