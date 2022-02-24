@@ -17,6 +17,6 @@ a:hover .img__stack {
 
 @media only screen and (max-width: 768px) {
   .img__stack {
-    width: 100%;
+    width: 70%;
   }
 }
