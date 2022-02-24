@@ -1,11 +1,11 @@
 import { Card, Row } from "react-bootstrap";
 
-import ItemSkill from "./ItemSkill";
+import ItemStack from "./ItemStack";
 import Letter from "../Letter/Letter";
 import React from "react";
-import { skills } from "../../utils/data/skills";
+import { stack } from "../../utils/data/stack";
 
-function Skills() {
+function Stack() {
   return (
     <section
       className="d-flex flex-column justify-content-center align-items-center section__container"
@@ -13,11 +13,10 @@ function Skills() {
     >
       <section className="d-flex" data-aos="fade-up">
         <Letter letter="S" />
+        <Letter letter="t" />
+        <Letter letter="a" />
+        <Letter letter="c" />
         <Letter letter="k" />
-        <Letter letter="i" />
-        <Letter letter="l" />
-        <Letter letter="l" />
-        <Letter letter="s" />
       </section>
 
       <section className="d-flex justify-content-center" data-aos="fade-up">
@@ -25,8 +24,8 @@ function Skills() {
           <Card.Body>
             <Card.Text>
               <Row>
-                {skills.map((s) => (
-                  <ItemSkill key={s.title} {...s} />
+                {stack.map((s) => (
+                  <ItemStack key={s.title} {...s} />
                 ))}
               </Row>
             </Card.Text>
@@ -37,4 +36,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Stack;

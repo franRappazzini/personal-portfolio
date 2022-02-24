@@ -1,9 +1,9 @@
-import "./ItemSkill.css";
+import "./ItemStack.css";
 
 import { Col } from "react-bootstrap";
 import React from "react";
 
-function ItemSkill({ href, img, title }) {
+function ItemStack({ href, img, title }) {
   return (
     <Col
       xs={4}
@@ -11,10 +11,11 @@ function ItemSkill({ href, img, title }) {
       className="d-flex align-items-center justify-content-center"
     >
       <a href={href} target="_blank" rel="noopener noreferrer" align="center">
-        <img src={img} title={title} alt={title} className="img__skill my-2" />
+        <img src={img} title={title} alt={title} className="img__stack my-3" />
+        <p className="text__stack">{title}</p>
       </a>
     </Col>
   );
 }
 
-export default ItemSkill;
+export default ItemStack;

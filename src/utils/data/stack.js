@@ -1,17 +1,18 @@
-import ajax from "../../assets/svg/ajax.svg";
-import bootstrap from "../../assets/svg/bootstrap.svg";
-import css from "../../assets/svg/css.svg";
-import firebase from "../../assets/svg/firebase.svg";
-import git from "../../assets/svg/git.svg";
-import html from "../../assets/svg/html.svg";
-import javascript from "../../assets/svg/javascript.svg";
-import jquery from "../../assets/svg/jquery.svg";
-import npm from "../../assets/svg/npm.svg";
-import react from "../../assets/svg/react.svg";
-import redux from "../../assets/svg/redux.svg";
-import sass from "../../assets/svg/sass.svg";
+// import ajax from "../../assets/img/stack/";
 
-export const skills = [
+import bootstrap from "../../assets/img/stack/bootstrap.png";
+import css from "../../assets/img/stack/css.png";
+import firebase from "../../assets/img/stack/firebase.png";
+import git from "../../assets/img/stack/git.png";
+import html from "../../assets/img/stack/html.png";
+import javascript from "../../assets/img/stack/js.png";
+import jquery from "../../assets/img/stack/jquery.png";
+import npm from "../../assets/img/stack/npm.png";
+import react from "../../assets/img/stack/reactjs.png";
+import redux from "../../assets/img/stack/redux.png";
+import sass from "../../assets/img/stack/sass.png";
+
+export const stack = [
   {
     title: "JavaScript",
     img: javascript,
@@ -52,10 +53,15 @@ export const skills = [
     img: bootstrap,
     href: "https://getbootstrap.com/",
   },
+  // {
+  //   title: "AJAX",
+  //   img: ajax,
+  //   href: "https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX",
+  // },
   {
-    title: "AJAX",
-    img: ajax,
-    href: "https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX",
+    title: "Firebase",
+    img: firebase,
+    href: "https://firebase.google.com/",
   },
   {
     title: "npm",
@@ -66,10 +72,5 @@ export const skills = [
     title: "Git",
     img: git,
     href: "https://git-scm.com/",
-  },
-  {
-    title: "Firebase",
-    img: firebase,
-    href: "https://firebase.google.com/",
   },
 ];

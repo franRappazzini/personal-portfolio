@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+
+.img__stack {
+  width: 4rem;
+}
+
+a:hover .img__stack {
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.text__stack {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .img__stack {
+    width: 100%;
+  }
+}
