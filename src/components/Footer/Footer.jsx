@@ -1,10 +1,11 @@
-import React from "react";
 import "./Footer.css";
+
+import React from "react";
 
 function Footer() {
   return (
     <footer className="container d-flex justify-content-center">
-      <p className="me-3">© 2021</p>
+      <p className="me-3">© 2022</p>
       <p className="ms-3">
         Created by{" "}
         <a
