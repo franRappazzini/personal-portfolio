@@ -19,12 +19,9 @@ function Home() {
       <FormContact />
 
       {/* cursor desktop */}
-      <MouseTooltip
-        visible={true}
-        offsetX={-7}
-        offsetY={-7}
-        className="cursor"
-      />
+      <MouseTooltip visible={true} offsetX={-7} offsetY={-7}>
+        <div className="cursor"></div>
+      </MouseTooltip>
     </main>
   );
 }
