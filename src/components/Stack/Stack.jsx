@@ -1,3 +1,5 @@
+import "./Stack.css";
+
 import { Card, Row } from "react-bootstrap";
 
 import ItemStack from "./ItemStack";
@@ -20,7 +22,7 @@ function Stack() {
       </section>
 
       <section className="d-flex justify-content-center" data-aos="fade-up">
-        <Card bg="dark" style={{ width: "80%" }} className="mb-2">
+        <Card bg="dark" className="mb-2 card-stack__container">
           <Card.Body>
             <Card.Text>
               <Row>
