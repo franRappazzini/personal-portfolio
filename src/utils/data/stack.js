@@ -7,6 +7,7 @@ import git from "../../assets/img/stack/git.png";
 import html from "../../assets/img/stack/html.png";
 import javascript from "../../assets/img/stack/js.png";
 import jquery from "../../assets/img/stack/jquery.png";
+import mui from "../../assets/img/stack/mui.png";
 import npm from "../../assets/img/stack/npm.png";
 import react from "../../assets/img/stack/reactjs.png";
 import redux from "../../assets/img/stack/redux.png";
@@ -48,11 +49,6 @@ export const stack = [
     img: sass,
     href: "https://sass-lang.com/",
   },
-  {
-    title: "Bootstrap",
-    img: bootstrap,
-    href: "https://getbootstrap.com/",
-  },
   // {
   //   title: "AJAX",
   //   img: ajax,
@@ -62,6 +58,16 @@ export const stack = [
     title: "Firebase",
     img: firebase,
     href: "https://firebase.google.com/",
+  },
+  {
+    title: "Material UI",
+    img: mui,
+    href: "https://mui.com/",
+  },
+  {
+    title: "Bootstrap",
+    img: bootstrap,
+    href: "https://getbootstrap.com/",
   },
   {
     title: "npm",
