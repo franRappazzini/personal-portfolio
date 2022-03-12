@@ -1,8 +1,9 @@
-import React from "react";
-import { Card } from "react-bootstrap";
 import "./Project.css";
-import github from "../../assets/svg/github.svg";
+
+import { Card } from "react-bootstrap";
+import React from "react";
 import exportLink from "../../assets/svg/exportLink.svg";
+import github from "../../assets/svg/github.svg";
 
 function Project({ img, title, description, link, githubLink }) {
   return (
@@ -10,7 +11,6 @@ function Project({ img, title, description, link, githubLink }) {
       style={{ width: "18rem" }}
       bg="dark"
       className="project__article mb-3"
-      data-aos="zoom-in-up"
     >
       <a
         href={link}
