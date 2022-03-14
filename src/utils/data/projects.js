@@ -24,7 +24,7 @@ export const projects = [
     img: screenExchange,
     title: "Exchange cripto-acciones",
     description:
-      "Compra/venta de cripto y acciones en tiempo real. Construido con React, Material UI, Firebase.",
+      "Compra/venta de cripto y acciones en tiempo real. Construido con React, Material UI, Firebase. (En desarrollo)",
     githubLink: "https://github.com/franRappazzini/exchange",
     link: "https://argchange-exchange.vercel.app/",
     index: 2,
