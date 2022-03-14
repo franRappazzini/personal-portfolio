@@ -1,13 +1,13 @@
-import screenMarilina from "../../assets/img/screenMarilina.png";
+import screenExchange from "../../assets/img/screenExchange.png";
 import screenMessage from "../../assets/img/screenMessage.png";
 import screenReact from "../../assets/img/screenReact.png";
 
 export const projects = [
   {
     img: screenReact,
-    title: "Proyecto final ReactJS",
+    title: "E-commerce React",
     description:
-      "Sitio creado con ReactJS para entrega final del curso en Coderhouse",
+      "Funciones de carrito, favoritos, info. detallada y mas. Construido con React, Bootstrap, Firebase.",
     githubLink: "https://github.com/franRappazzini/Proyecto_Final_React_Coder",
     link: "https://proyecto-final-react-coder-one.vercel.app/",
     index: 0,
@@ -21,11 +21,12 @@ export const projects = [
     index: 1,
   },
   {
-    img: screenMarilina,
-    title: "E-commerce para Marilina",
-    description: "Creado con JavaScript, HTML, CSS, Firebase y más",
-    githubLink: "https://github.com/franRappazzini/ecommerce-marilina",
-    link: "https://ropadeportivamf.com.ar/",
+    img: screenExchange,
+    title: "Exchange cripto-acciones",
+    description:
+      "Compra/venta de cripto y acciones en tiempo real. Construido con React, Material UI, Firebase.",
+    githubLink: "https://github.com/franRappazzini/exchange",
+    link: "https://argchange-exchange.vercel.app/",
     index: 2,
   },
 ];

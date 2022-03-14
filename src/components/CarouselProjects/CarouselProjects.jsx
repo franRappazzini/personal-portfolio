@@ -36,7 +36,7 @@ function CarouselProjects() {
           (p) =>
             position === p.index && (
               <div data-aos={`zoom-in-${direction}`}>
-                <Project key={p.title} {...p} />
+                <Project key={p.index} {...p} />
               </div>
             )
         )}

@@ -29,7 +29,7 @@ function ProjectsContainer() {
         {innerWidth > 768 ? (
           <section className="project__items d-flex flex-wrap">
             {projects.map((p) => (
-              <Project key={p.title} {...p} />
+              <Project key={p.index} {...p} />
             ))}
           </section>
         ) : (
