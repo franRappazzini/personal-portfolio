@@ -5,9 +5,12 @@ import { Card, Row } from "react-bootstrap";
 import ItemStack from "./ItemStack";
 import Letter from "../Letter/Letter";
 import React from "react";
+import Tilt from "react-parallax-tilt";
 import { stack } from "../../utils/data/stack";
 
 function Stack() {
+  const innerWidth = window.innerWidth;
+
   return (
     <section
       className="d-flex flex-column justify-content-center align-items-center section__container"
@@ -21,7 +24,13 @@ function Stack() {
         <Letter letter="k" />
       </section>
 
-      <section className="d-flex justify-content-center" data-aos="fade-up">
+      <Tilt
+        tiltEnable={innerWidth < 820 ? false : true}
+        className="d-flex justify-content-center"
+        data-aos="fade-up"
+        tiltMaxAngleX={7}
+        tiltMaxAngleY={7}
+      >
         <Card bg="dark" className="mb-2 card-stack__container">
           <Card.Body>
             <Card.Text>
@@ -33,7 +42,7 @@ function Stack() {
             </Card.Text>
           </Card.Body>
         </Card>
-      </section>
+      </Tilt>
     </section>
   );
 }

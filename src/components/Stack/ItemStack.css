@@ -12,7 +12,11 @@ a:hover .img__stack {
 }
 
 .text__stack {
-  color: white;
+  color: #ebebeb;
+}
+
+.text__stack:hover {
+  color: #ebebeb;
 }
 
 @media only screen and (max-width: 768px) {

@@ -10,9 +10,15 @@ function ItemStack({ href, img, title }) {
       md={2}
       className="d-flex align-items-center justify-content-center"
     >
-      <a href={href} target="_blank" rel="noopener noreferrer" align="center">
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        align="center"
+        className="text__stack d-flex flex-column align-items-center"
+      >
         <img src={img} title={title} alt={title} className="img__stack my-3" />
-        <p className="text__stack">{title}</p>
+        {title}
       </a>
     </Col>
   );

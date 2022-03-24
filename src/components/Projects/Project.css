@@ -3,6 +3,14 @@
   transition: 0.4s;
 }
 
+.project__link {
+  color: #ebebeb;
+}
+
+.project__link:hover {
+  color: #ebebeb;
+}
+
 .project__items {
   justify-content: space-between;
 }
@@ -14,11 +22,6 @@
 .img__project {
   height: 9rem;
   object-fit: cover;
-}
-
-.img__project:hover {
-  transform: scale(1.05);
-  transition: 0.4s;
 }
 
 .img__footer--project:hover {
