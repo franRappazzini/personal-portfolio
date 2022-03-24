@@ -27,11 +27,14 @@ function Stack() {
       <Tilt
         tiltEnable={innerWidth < 820 ? false : true}
         className="d-flex justify-content-center"
-        data-aos="fade-up"
         tiltMaxAngleX={7}
         tiltMaxAngleY={7}
       >
-        <Card bg="dark" className="mb-2 card-stack__container">
+        <Card
+          bg="dark"
+          className="mb-2 card-stack__container"
+          data-aos="fade-up"
+        >
           <Card.Body>
             <Card.Text>
               <Row>
