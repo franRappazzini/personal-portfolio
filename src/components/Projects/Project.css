@@ -15,10 +15,6 @@
   justify-content: space-between;
 }
 
-.link__img {
-  overflow: hidden;
-}
-
 .img__project {
   height: 9rem;
   object-fit: cover;
