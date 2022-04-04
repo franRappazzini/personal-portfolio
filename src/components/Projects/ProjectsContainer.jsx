@@ -28,6 +28,13 @@ function ProjectsContainer() {
       <section data-aos="zoom-in-up">
         {innerWidth > 768 ? (
           <section className="project__items d-flex flex-wrap">
+            {/* 
+
+
+              CREAR UN COMPONENTE PARA CAROUSEL DE PROJECTS EN DESKTOP
+
+
+            */}
             {projects.map((p) => (
               <Project key={p.index} {...p} />
             ))}
