@@ -2,10 +2,23 @@
   transform: scale(0.8);
 }
 
-.imgs__container {
+.icons__container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
   margin-top: 1rem;
+}
+
+.icon__chevron:hover {
+  transform: scale(1.2);
+}
+.icon__chevron:active {
+  transform: scale(0.8);
+}
+
+@media only screen and (max-width: 768px) {
+  .icon__chevron:hover {
+    transform: none;
+  }
 }

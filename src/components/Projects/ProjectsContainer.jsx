@@ -1,10 +1,9 @@
 import "./Project.css";
 
 import CarouselProjects from "../CarouselProjects/CarouselProjects";
+import DesktopCarousel from "../CarouselProjects/DesktopCarousel";
 import Letter from "../Letter/Letter";
-import Project from "./Project";
 import React from "react";
-import { projects } from "../../utils/data/projects";
 
 function ProjectsContainer() {
   const innerWidth = window.innerWidth;
@@ -26,22 +25,7 @@ function ProjectsContainer() {
       </section>
 
       <section data-aos="zoom-in-up">
-        {innerWidth > 768 ? (
-          <section className="project__items d-flex flex-wrap">
-            {/* 
-
-
-              CREAR UN COMPONENTE PARA CAROUSEL DE PROJECTS EN DESKTOP
-
-
-            */}
-            {projects.map((p) => (
-              <Project key={p.index} {...p} />
-            ))}
-          </section>
-        ) : (
-          <CarouselProjects />
-        )}
+        {innerWidth > 768 ? <DesktopCarousel /> : <CarouselProjects />}
       </section>
 
       <div className="d-flex justify-content-center mt-3">

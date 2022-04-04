@@ -1,10 +1,9 @@
 import "./CarouselProjects.css";
 
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import React, { useEffect, useState } from "react";
 
 import Project from "../Projects/Project";
-import arrowLeft from "../../assets/svg/arrow_left.svg";
-import arrowRight from "../../assets/svg/arrow_right.svg";
 import { projects } from "../../utils/data/projects";
 
 function CarouselProjects() {
@@ -42,8 +41,18 @@ function CarouselProjects() {
         )}
       </section>
 
-      <div className="imgs__container">
-        <img
+      <div className="icons__container">
+        <BsChevronLeft
+          size={25}
+          className="icon__chevron"
+          onClick={handleLeft}
+        />
+        <BsChevronRight
+          size={25}
+          className="icon__chevron"
+          onClick={handleRight}
+        />
+        {/* <img
           src={arrowLeft}
           alt="arrow left"
           onClick={handleLeft}
@@ -54,7 +63,7 @@ function CarouselProjects() {
           alt="arrow right"
           onClick={handleRight}
           className="arrow__img"
-        />
+        /> */}
       </div>
     </section>
   );
