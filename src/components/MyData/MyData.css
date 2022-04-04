@@ -28,14 +28,6 @@
 }
 
 /* mouse scroll icon by: https://codepen.io/2xsamurai/pen/WwmjKQ  */
-body,
-html {
-  background-color: #000;
-  width: 100%;
-  min-height: 100%;
-  padding: 0;
-  margin: 0;
-}
 .scroll-downs {
   position: relative;
   top: 0;
