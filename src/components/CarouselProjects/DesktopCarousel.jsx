@@ -37,11 +37,13 @@ function DesktopCarousel() {
           size={25}
           className="me-4 icon__chevron"
           onClick={handleLeft}
+          display={position === 0 && "none"}
         />
         <BsChevronRight
           size={25}
           className="ms-4 icon__chevron"
           onClick={handleRight}
+          display={position === projects.length - 3 && "none"}
         />
       </div>
     </section>
