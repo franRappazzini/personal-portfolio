@@ -9,7 +9,7 @@
 }
 
 .letter__titles:hover {
-  /* color: #e41f1f; */
+  color: #e41f1f;
   transform: scale(1.3);
 }
 
