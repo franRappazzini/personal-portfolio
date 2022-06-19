@@ -28,8 +28,8 @@ function DesktopCarousel() {
   return (
     <section>
       <section className="project__items d-flex flex-wrap">
-        {projects.slice(position, position + 3).map((p) => (
-          <Project key={p.index} {...p} />
+        {projects.slice(position, position + 3).map((p, i) => (
+          <Project key={i} {...p} />
         ))}
       </section>
       <div className="d-flex justify-content-center mt-5">

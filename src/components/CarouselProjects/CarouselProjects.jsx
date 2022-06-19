@@ -32,10 +32,10 @@ function CarouselProjects() {
     <section className="d-flex flex-column justify-content-center align-items-center">
       <section className="d-flex justify-content-center">
         {projects.map(
-          (p) =>
-            position === p.index && (
+          (p, i) =>
+            position === i && (
               <div data-aos={`zoom-in-${direction}`}>
-                <Project key={p.index} {...p} />
+                <Project key={i} {...p} />
               </div>
             )
         )}
