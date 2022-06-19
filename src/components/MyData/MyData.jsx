@@ -45,7 +45,7 @@ function MyData() {
             <Letter letter="o" />
           </section>
 
-          <p className="m-0">FrontEnd Developer</p>
+          <p className="m-0">Full Stack Developer</p>
         </Col>
         <Col
           xs={12}

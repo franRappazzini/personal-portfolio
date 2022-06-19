@@ -7,7 +7,10 @@ import git from "../../assets/img/stack/git.png";
 import html from "../../assets/img/stack/html.png";
 import javascript from "../../assets/img/stack/js.png";
 import jquery from "../../assets/img/stack/jquery.png";
+import less from "../../assets/img/stack/less.png";
+import mongodb from "../../assets/img/stack/mongodb.png";
 import mui from "../../assets/img/stack/mui.png";
+import nodejs from "../../assets/img/stack/nodejs.png";
 import npm from "../../assets/img/stack/npm.png";
 import react from "../../assets/img/stack/reactjs.png";
 import redux from "../../assets/img/stack/redux.png";
@@ -30,6 +33,11 @@ export const stack = [
     href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
+    title: "Node JS",
+    img: nodejs,
+    href: "https://nodejs.org/en/",
+  },
+  {
     title: "React JS",
     img: react,
     href: "https://reactjs.org/",
@@ -48,6 +56,16 @@ export const stack = [
     title: "Sass",
     img: sass,
     href: "https://sass-lang.com/",
+  },
+  {
+    title: "Less",
+    img: less,
+    href: "https://lesscss.org/",
+  },
+  {
+    title: "MongoDB",
+    img: mongodb,
+    href: "https://www.mongodb.com/",
   },
   // {
   //   title: "AJAX",
