@@ -7,7 +7,7 @@ function Letter({ letter }) {
 
   const style = {
     hover: { color: randomColor() },
-    default: { color: "white" },
+    default: { color: "#ebebeb" },
   };
 
   function handleHover() {
@@ -16,14 +16,19 @@ function Letter({ letter }) {
 
   function randomColor() {
     const colors = [
-      "#ffbe0b",
-      "#fb5607",
-      "#ff006e",
-      "#8338ec",
-      "#3a86ff",
-      "#e41f1f",
+      "#ff0000",
+      "#ff8700",
+      "#ffd300",
+      "#deff0a",
+      "#a1ff0a",
+      "#0aff99",
+      "#0aefff",
+      "#147df5",
+      "#580aff",
+      "#be0aff",
     ];
-    return colors[Math.floor(Math.random() * 6)];
+
+    return colors[Math.floor(Math.random() * 10)];
   }
 
   return (
