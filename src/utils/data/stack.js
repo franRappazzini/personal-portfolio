@@ -6,6 +6,7 @@ import firebase from "../../assets/img/stack/firebase.png";
 import git from "../../assets/img/stack/git.png";
 import html from "../../assets/img/stack/html.png";
 import javascript from "../../assets/img/stack/js.png";
+import jest from "../../assets/img/stack/jest.png";
 import jquery from "../../assets/img/stack/jquery.png";
 import less from "../../assets/img/stack/less.png";
 import mongodb from "../../assets/img/stack/mongodb.png";
@@ -76,6 +77,11 @@ export const stack = [
     title: "Firebase",
     img: firebase,
     href: "https://firebase.google.com/",
+  },
+  {
+    title: "Jest",
+    img: jest,
+    href: "https://jestjs.io/",
   },
   {
     title: "Material UI",
