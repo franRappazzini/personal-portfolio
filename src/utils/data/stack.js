@@ -13,9 +13,11 @@ import mongodb from "../../assets/img/stack/mongodb.png";
 import mui from "../../assets/img/stack/mui.png";
 import nodejs from "../../assets/img/stack/nodejs.png";
 import npm from "../../assets/img/stack/npm.png";
+import postgresql from "../../assets/img/stack/postgresql.png";
 import react from "../../assets/img/stack/reactjs.png";
 import redux from "../../assets/img/stack/redux.png";
 import sass from "../../assets/img/stack/sass.png";
+import sequelize from "../../assets/img/stack/sequelize.png";
 
 export const stack = [
   {
@@ -62,6 +64,16 @@ export const stack = [
     title: "Less",
     img: less,
     href: "https://lesscss.org/",
+  },
+  {
+    title: "PostgreSQL",
+    img: postgresql,
+    href: "https://www.postgresql.org/",
+  },
+  {
+    title: "Sequelize",
+    img: sequelize,
+    href: "https://sequelize.org/",
   },
   {
     title: "MongoDB",
