@@ -2,6 +2,7 @@
 
 import bootstrap from "../../assets/img/stack/bootstrap.png";
 import css from "../../assets/img/stack/css.png";
+import express from "../../assets/img/stack/express.png";
 import firebase from "../../assets/img/stack/firebase.png";
 import git from "../../assets/img/stack/git.png";
 import html from "../../assets/img/stack/html.png";
@@ -18,6 +19,7 @@ import react from "../../assets/img/stack/reactjs.png";
 import redux from "../../assets/img/stack/redux.png";
 import sass from "../../assets/img/stack/sass.png";
 import sequelize from "../../assets/img/stack/sequelize.png";
+import sql from "../../assets/img/stack/sql.png";
 
 export const stack = [
   {
@@ -36,9 +38,9 @@ export const stack = [
     href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   },
   {
-    title: "Node JS",
-    img: nodejs,
-    href: "https://nodejs.org/en/",
+    title: "SQL",
+    img: sql,
+    href: "https://www.w3schools.com/sql/sql_intro.asp",
   },
   {
     title: "React JS",
@@ -49,6 +51,16 @@ export const stack = [
     title: "Redux",
     img: redux,
     href: "https://redux.js.org/",
+  },
+  {
+    title: "Node JS",
+    img: nodejs,
+    href: "https://nodejs.org/en/",
+  },
+  {
+    title: "Express",
+    img: express,
+    href: "https://expressjs.com/",
   },
   {
     title: "jQuery",
