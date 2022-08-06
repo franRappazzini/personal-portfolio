@@ -5,20 +5,20 @@ import screenTrivia from "../../assets/img/screenTrivia.png";
 
 export const projects = [
   {
+    img: screenExchange,
+    title: "Exchange cripto",
+    description:
+      "Compra/venta de cripto en tiempo real. Construido con React, Redux, Express, PostgreSQL, Sequelize, Sass y Material UI.",
+    githubLink: "https://github.com/franRappazzini/exchange_cripto",
+    link: "https://exchange-cripto.vercel.app/",
+  },
+  {
     img: screenMELI,
-    title: "Buscador Mercado Libre",
+    title: "Clon buscador Mercado Libre",
     description:
       "Buscador de productos de Mercado Libre con filtros, reviews, y mas. Creado con React, Redux y API de MELI.",
     githubLink: "https://github.com/franRappazzini/meli_buscador",
     link: "https://meli-buscador.vercel.app/",
-  },
-  {
-    img: screenExchange,
-    title: "Exchange cripto",
-    description:
-      "Compra/venta de cripto en tiempo real. Construido con React, Redux, Material UI, Firebase y API",
-    githubLink: "https://github.com/franRappazzini/exchange",
-    link: "https://argchange-exchange.vercel.app/",
   },
 
   {
