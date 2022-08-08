@@ -20,12 +20,18 @@ import redux from "../../assets/img/stack/redux.png";
 import sass from "../../assets/img/stack/sass.png";
 import sequelize from "../../assets/img/stack/sequelize.png";
 import sql from "../../assets/img/stack/sql.png";
+import typescript from "../../assets/img/stack/typescript.png";
 
 export const stack = [
   {
     title: "JavaScript",
     img: javascript,
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    title: "TypeScript",
+    img: typescript,
+    href: "https://www.typescriptlang.org/",
   },
   {
     title: "HTML",
