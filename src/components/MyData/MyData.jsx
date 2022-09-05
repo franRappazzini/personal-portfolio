@@ -76,7 +76,7 @@ function MyData() {
             </Col>
             <Col xs={4} className="d-flex justify-content-center">
               <a
-                href="https://drive.google.com/file/d/1g_64g5xE6a62VHOlnQ4Qr18Bs2IFElBv/view?usp=sharing"
+                href="https://www.dropbox.com/s/oh8yt9iindeiqqa/Rappazzini%20Francisco%20-%20CV.pdf?dl=0"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="CV"
