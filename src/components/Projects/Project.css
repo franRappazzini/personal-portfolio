@@ -1,6 +1,6 @@
 .project__article {
   user-select: none;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 .project__article:hover {
@@ -25,7 +25,7 @@
 }
 
 .img__footer--project{
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 .img__footer--project:hover {

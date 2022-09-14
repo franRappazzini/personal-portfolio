@@ -4,7 +4,7 @@ a {
 
 .img__stack {
   width: 4rem;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 a:hover .img__stack {
