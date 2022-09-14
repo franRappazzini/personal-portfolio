@@ -4,11 +4,11 @@ a {
 
 .img__stack {
   width: 4rem;
+  transition: 0.4s;
 }
 
 a:hover .img__stack {
   transform: scale(1.1);
-  transition: 0.4s;
 }
 
 .text__stack {

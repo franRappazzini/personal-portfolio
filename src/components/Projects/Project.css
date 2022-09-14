@@ -1,10 +1,10 @@
 .project__article {
   user-select: none;
+  transition: 0.4s;
 }
 
 .project__article:hover {
   box-shadow: 0 0 10px rgb(10, 10, 10);
-  transition: 0.4s;
 }
 
 .project__link {
@@ -24,9 +24,12 @@
   object-fit: cover;
 }
 
+.img__footer--project{
+  transition: 0.4s;
+}
+
 .img__footer--project:hover {
   transform: scale(1.15);
-  transition: 0.4s;
 }
 
 .btn__ver-mas {
