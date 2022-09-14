@@ -9,11 +9,11 @@
 
 .img__redes {
   width: 5rem;
+  transition: 0.4s;
 }
 
 .img__redes:hover {
   transform: scale(1.1);
-  transition: 0.4s;
 }
 
 @media only screen and (max-width: 748px) {
