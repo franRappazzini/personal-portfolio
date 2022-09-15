@@ -18,7 +18,7 @@ export const projects = [
     description:
       "Buscador de productos de Mercado Libre con filtros, reviews, y mas. Creado con React, Redux y API de MELI.",
     githubLink: "https://github.com/franRappazzini/meli_buscador",
-    link: "https://meli-buscador-kpbftim84-franrappavercel-outlookcom.vercel.app/",
+    link: "https://meli-buscador-ijhvy19di-franrappavercel-outlookcom.vercel.app/",
   },
 
   {
