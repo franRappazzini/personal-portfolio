@@ -1,9 +1,18 @@
 import screenExchange from "../../assets/img/screenExchange.png";
+import screenBooks from "../../assets/img/screenBooks.png";
 import screenMELI from "../../assets/img/screenMELI.png";
 import screenReact from "../../assets/img/screenReact.png";
 import screenTrivia from "../../assets/img/screenTrivia.png";
 
 export const projects = [
+  {
+    img: screenBooks,
+    title: "Librería online",
+    description:
+      "Librería CRUD. Construida con React TypeScript, Redux, Express, PostgreSQL, Sequelize, AWS, Sass y Material UI.",
+    githubLink: "https://github.com/franRappazzini/argybooks",
+    link: "https://argybooks.vercel.app/",
+  },
   {
     img: screenExchange,
     title: "Exchange cripto",

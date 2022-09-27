@@ -27,8 +27,8 @@ function Stack() {
       <Tilt
         tiltEnable={innerWidth < 820 ? false : true}
         className="d-flex justify-content-center"
-        tiltMaxAngleX={7}
-        tiltMaxAngleY={7}
+        tiltMaxAngleX={3}
+        tiltMaxAngleY={3}
       >
         <Card
           bg="dark"
