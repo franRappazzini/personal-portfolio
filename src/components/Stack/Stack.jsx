@@ -14,7 +14,7 @@ function Stack() {
   return (
     <section
       className="d-flex flex-column justify-content-center align-items-center section__container"
-      style={{ height: "100vh" }}
+      style={{ minHeight: "100vh" }}
     >
       <section className="d-flex" data-aos="fade-up">
         <Letter letter="S" />
@@ -30,11 +30,7 @@ function Stack() {
         tiltMaxAngleX={3}
         tiltMaxAngleY={3}
       >
-        <Card
-          bg="dark"
-          className="mb-2 card-stack__container"
-          data-aos="fade-up"
-        >
+        <Card bg="dark" className="mb-2 card-stack__container" data-aos="fade-up">
           <Card.Body>
             <Card.Text>
               <Row>

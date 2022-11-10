@@ -1,18 +1,16 @@
-.arrow__img:active {
-  transform: scale(0.8);
+.swiper-slide {
+  transform: scale(0.9);
+  transition: 0.5s;
 }
 
-.icons__container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  margin-top: 1rem;
+.swiper-slide-active {
+  transform: scale(1);
 }
 
 .icon__chevron:hover {
   transform: scale(1.2);
 }
+
 .icon__chevron:active {
   transform: scale(0.8);
 }
