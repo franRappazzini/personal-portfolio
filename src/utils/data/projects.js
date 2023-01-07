@@ -1,10 +1,19 @@
-import screenExchange from "../../assets/img/screenExchange.png";
 import screenBooks from "../../assets/img/screenBooks.png";
+import screenExchange from "../../assets/img/screenExchange.png";
 import screenMELI from "../../assets/img/screenMELI.png";
+import screenNfts from "../../assets/img/screenNfts.png";
 import screenReact from "../../assets/img/screenReact.png";
 import screenTrivia from "../../assets/img/screenTrivia.png";
 
 export const projects = [
+  {
+    img: screenNfts,
+    title: "NFT Punk minter",
+    description:
+      "dApp para crear NFTs random con características únicas. Construida con Next.js, TypeScript, Solidity, Ethers.js, Moralis, Avataaars y Chakra UI.",
+    githubLink: "https://github.com/franRappazzini/nft-punk-web",
+    link: "https://nft-punk-web.vercel.app/",
+  },
   {
     img: screenBooks,
     title: "Librería online",

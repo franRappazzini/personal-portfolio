@@ -12,6 +12,7 @@ import jquery from "../../assets/img/stack/jquery.png";
 import less from "../../assets/img/stack/less.png";
 import mongodb from "../../assets/img/stack/mongodb.png";
 import mui from "../../assets/img/stack/mui.png";
+import nextjs from "../../assets/img/stack/nextjs.png";
 import nodejs from "../../assets/img/stack/nodejs.png";
 import npm from "../../assets/img/stack/npm.png";
 import postgresql from "../../assets/img/stack/postgresql.png";
@@ -19,6 +20,7 @@ import react from "../../assets/img/stack/reactjs.png";
 import redux from "../../assets/img/stack/redux.png";
 import sass from "../../assets/img/stack/sass.png";
 import sequelize from "../../assets/img/stack/sequelize.png";
+import solidity from "../../assets/img/stack/solidity.png";
 import sql from "../../assets/img/stack/sql.png";
 import typescript from "../../assets/img/stack/typescript.png";
 
@@ -32,6 +34,11 @@ export const stack = [
     title: "TypeScript",
     img: typescript,
     href: "https://www.typescriptlang.org/",
+  },
+  {
+    title: "Solidity",
+    img: solidity,
+    href: "https://soliditylang.org/",
   },
   {
     title: "HTML",
@@ -49,9 +56,14 @@ export const stack = [
     href: "https://www.w3schools.com/sql/sql_intro.asp",
   },
   {
-    title: "React JS",
+    title: "React",
     img: react,
     href: "https://reactjs.org/",
+  },
+  {
+    title: "Next.js",
+    img: nextjs,
+    href: "https://nextjs.org/",
   },
   {
     title: "Redux",
