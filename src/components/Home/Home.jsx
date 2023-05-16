@@ -1,5 +1,6 @@
 import "./Home.css";
 
+import Experience from "../Experience/Experience";
 import FormContact from "../ContactMe/FormContact";
 import MouseTooltip from "react-sticky-mouse-tooltip";
 import MyData from "../MyData/MyData";
@@ -11,6 +12,8 @@ function Home() {
   return (
     <main className="container">
       <MyData />
+
+      <Experience />
 
       <Stack />
 

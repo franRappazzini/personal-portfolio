@@ -1,0 +1,45 @@
+.item_experience {
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  border-left: 1px solid whitesmoke;
+  position: relative;
+}
+
+.item_experience:last-child {
+  padding-bottom: 0;
+}
+
+.item_experience .marker {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #101112;
+  border: 2px solid whitesmoke;
+  left: -8px;
+  top: 4px;
+  border-radius: 100%;
+  transition: 0.1s;
+}
+
+.item_experience:hover .marker {
+  border-width: 3px;
+  transform: scale(1.2);
+}
+
+.item_experience h5 {
+  margin: 0;
+  padding-left: 0.5rem;
+}
+
+.item_experience p {
+  margin: 0;
+  padding-left: 0.5rem;
+}
+
+.item_experience .company_experience {
+  margin: 0.25rem 0;
+}
+
+.item_experience .description_experience {
+  color: rgb(170, 170, 170);
+}
