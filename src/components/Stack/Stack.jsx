@@ -3,10 +3,12 @@ import "./Stack.css";
 import { Card, Row } from "react-bootstrap";
 
 import ItemStack from "./ItemStack";
-import Letter from "../Letter/Letter";
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { stack } from "../../utils/data/stack";
+import { titleConvert } from "../../utils/functions";
+
+const title = "Stack";
 
 function Stack() {
   const innerWidth = window.innerWidth;
@@ -17,11 +19,7 @@ function Stack() {
       style={{ minHeight: "100vh" }}
     >
       <section className="d-flex" data-aos="fade-up">
-        <Letter letter="S" />
-        <Letter letter="t" />
-        <Letter letter="a" />
-        <Letter letter="c" />
-        <Letter letter="k" />
+        {titleConvert(title)}
       </section>
 
       <Tilt

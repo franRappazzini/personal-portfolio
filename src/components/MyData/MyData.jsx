@@ -4,46 +4,25 @@ import "aos/dist/aos.css";
 import { Col, Image, Row } from "react-bootstrap";
 
 import AOS from "aos";
-import Letter from "../Letter/Letter";
 import React from "react";
 import cv from "../../assets/svg/cv.svg";
 import github from "../../assets/svg/github.svg";
 import linkedin from "../../assets/svg/linkedin.svg";
+import { titleConvert } from "../../utils/functions";
+
+const name = "Francisco";
+const lastName = "Rappazzini";
 
 function MyData() {
   AOS.init();
 
   return (
-    <section
-      className="d-flex flex-column justify-content-center"
-      style={{ height: "100vh" }}
-    >
+    <section className="d-flex flex-column justify-content-center" style={{ height: "100vh" }}>
       <Row>
         <Col xs={12} md={6} className="i" data-aos="zoom-in-up">
-          <section className="d-flex">
-            <Letter letter="R" />
-            <Letter letter="a" />
-            <Letter letter="p" />
-            <Letter letter="p" />
-            <Letter letter="a" />
-            <Letter letter="z" />
-            <Letter letter="z" />
-            <Letter letter="i" />
-            <Letter letter="n" />
-            <Letter letter="i" />
-          </section>
+          <section className="d-flex">{titleConvert(lastName)}</section>
 
-          <section className="d-flex">
-            <Letter letter="F" />
-            <Letter letter="r" />
-            <Letter letter="a" />
-            <Letter letter="n" />
-            <Letter letter="c" />
-            <Letter letter="i" />
-            <Letter letter="s" />
-            <Letter letter="c" />
-            <Letter letter="o" />
-          </section>
+          <section className="d-flex">{titleConvert(name)}</section>
 
           <p className="m-0">Full Stack Developer</p>
         </Col>

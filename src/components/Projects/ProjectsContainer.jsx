@@ -1,21 +1,16 @@
 import "./Project.css";
 
 import Carousel from "../Carousel/Carousel";
-import Letter from "../Letter/Letter";
 import React from "react";
+import { titleConvert } from "../../utils/functions";
+
+const title = "Projects";
 
 function ProjectsContainer() {
   return (
     <section style={{ height: "100vh" }} className="d-flex flex-column justify-content-center">
       <section className="d-flex justify-content-center" data-aos="zoom-in-up">
-        <Letter letter="P" />
-        <Letter letter="r" />
-        <Letter letter="o" />
-        <Letter letter="j" />
-        <Letter letter="e" />
-        <Letter letter="c" />
-        <Letter letter="t" />
-        <Letter letter="s" />
+        {titleConvert(title)}
       </section>
 
       <Carousel />

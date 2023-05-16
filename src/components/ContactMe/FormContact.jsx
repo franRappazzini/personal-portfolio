@@ -1,23 +1,18 @@
+import "./FormContact.css";
+
+import { Col, Form, Row } from "react-bootstrap";
+
 import Button from "@restart/ui/esm/Button";
 import React from "react";
-import { Col, Form, Row } from "react-bootstrap";
-import Letter from "../Letter/Letter";
-import "./FormContact.css";
+import { titleConvert } from "../../utils/functions";
+
+const title = "Contact";
 
 function FormContact() {
   return (
-    <section
-      className="d-flex flex-column justify-content-center"
-      style={{ height: "100vh" }}
-    >
+    <section className="d-flex flex-column justify-content-center" style={{ height: "100vh" }}>
       <section className="d-flex justify-content-center" data-aos="fade-up">
-        <Letter letter="C" />
-        <Letter letter="o" />
-        <Letter letter="n" />
-        <Letter letter="t" />
-        <Letter letter="a" />
-        <Letter letter="c" />
-        <Letter letter="t" />
+        {titleConvert(title)}
       </section>
 
       <Form
@@ -52,10 +47,7 @@ function FormContact() {
             </Form.Group>
           </Col>
           <Col xs={12}>
-            <Form.Group
-              className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
-            >
+            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
               <Form.Label>Message</Form.Label>
               <Form.Control
                 as="textarea"
