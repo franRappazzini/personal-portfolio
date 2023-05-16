@@ -11,6 +11,7 @@ import jest from "../../assets/img/stack/jest.png";
 import jquery from "../../assets/img/stack/jquery.png";
 import less from "../../assets/img/stack/less.png";
 import mongodb from "../../assets/img/stack/mongodb.png";
+import motoko from "../../assets/img/stack/motoko.png";
 import mui from "../../assets/img/stack/mui.png";
 import nextjs from "../../assets/img/stack/nextjs.png";
 import nodejs from "../../assets/img/stack/nodejs.png";
@@ -39,6 +40,11 @@ export const stack = [
     title: "Solidity",
     img: solidity,
     href: "https://soliditylang.org/",
+  },
+  {
+    title: "Motoko",
+    img: motoko,
+    href: "https://internetcomputer.org/docs/current/motoko/main/motoko",
   },
   {
     title: "HTML",
