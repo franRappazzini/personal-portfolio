@@ -22,7 +22,10 @@ function CustomToast({ toast, setToast }) {
         autohide
         animation={false}
       >
-        <Toast.Header className={`bg-${toast.ok ? "success" : toast.error ? "danger" : "bg-dark"}`}>
+        <Toast.Header
+          closeButton={false}
+          className={`bg-${toast.ok ? "success" : toast.error ? "danger" : "bg-dark"}`}
+        >
           <strong className="me-auto toast_title">
             {toast.ok ? "Email sent successfully!" : "Error sending email"}
           </strong>

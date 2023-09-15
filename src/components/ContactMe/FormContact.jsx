@@ -1,14 +1,13 @@
 import "./FormContact.css";
 
-import { Col, Form, Row } from "react-bootstrap";
+import { Button, Col, Form, Row } from "react-bootstrap";
 import React, { useState } from "react";
 
-import Button from "@restart/ui/esm/Button";
 import CustomToast from "../CustomToast/CustomToast";
 import { send } from "@emailjs/browser";
 import { titleConvert } from "../../utils/functions";
 
-const { REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, REACT_APP_PUBLIC_KEY } = process.env;
+const { VITE_SERVICE_ID, VITE_TEMPLATE_ID, VITE_PUBLIC_KEY } = import.meta.env;
 const title = "Contact";
 
 function FormContact() {
@@ -28,12 +27,7 @@ function FormContact() {
     setForm({ ...form, loading: true });
 
     try {
-      const res = await send(
-        REACT_APP_SERVICE_ID,
-        REACT_APP_TEMPLATE_ID,
-        form,
-        REACT_APP_PUBLIC_KEY
-      );
+      const res = await send(VITE_SERVICE_ID, VITE_TEMPLATE_ID, form, VITE_PUBLIC_KEY);
 
       console.log({ res });
 
@@ -78,7 +72,7 @@ function FormContact() {
               <Form.Control
                 type="text"
                 name="name"
-                placeholder="Name"
+                placeholder="Francisco Rappazzini"
                 className="form__control"
                 required
                 value={form.name}
@@ -114,7 +108,8 @@ function FormContact() {
               />
             </Form.Group>
             <Button
-              className="btn btn-outline-light btn__submit"
+              className="btn__submit"
+              variant="outline-light"
               type="submit"
               disabled={form.loading}
             >
