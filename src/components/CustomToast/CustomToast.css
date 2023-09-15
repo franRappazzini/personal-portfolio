@@ -1,0 +1,12 @@
+.toast_container .btn-close {
+  cursor: none;
+}
+
+.toast_container .toast_title {
+  font-size: 16px;
+  color: white;
+}
+
+.toast_container .toast_text {
+  font-size: 16px;
+}
