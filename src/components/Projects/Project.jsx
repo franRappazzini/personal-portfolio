@@ -12,8 +12,8 @@ function Project({ img, title, description, link, githubLink }) {
         <Card.Img variant="top" src={img} className="img__project" title="Ver sitio" />
 
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
-          <Card.Text>{description}</Card.Text>
+          <Card.Title className="text-light">{title}</Card.Title>
+          <Card.Text className="text-light">{description}</Card.Text>
         </Card.Body>
         <Card.Footer className="d-flex justify-content-center">
           <a
