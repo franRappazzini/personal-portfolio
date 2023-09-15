@@ -9,7 +9,10 @@ export default ({ mode }) => {
 
   return defineConfig({
     root: "src",
-
+    build: {
+      outDir: "../dist",
+      emptyOutDir: true,
+    },
     plugins: [react()],
   });
 };
