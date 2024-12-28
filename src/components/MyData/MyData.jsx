@@ -55,7 +55,7 @@ function MyData() {
             </Col>
             <Col xs={4} className="d-flex justify-content-center">
               <a
-                href="https://drive.google.com/file/d/1ukNuQG6Q-gjmoBucPC9gYuJpKQcRlpOk/view?usp=sharing"
+                href="https://drive.google.com/file/d/1j59VPG1fDr_jSjoO6yAhbk4O0-0ay6qP/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 title="CV"
