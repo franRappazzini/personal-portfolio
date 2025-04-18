@@ -19,16 +19,16 @@ function MyData() {
   return (
     <section className="d-flex flex-column justify-content-center" style={{ height: "100vh" }}>
       <Row>
-        <Col xs={12} md={6} className="i" data-aos="zoom-in-up">
+        <Col xs={12} lg={6} className="i" data-aos="zoom-in-up">
           <section className="d-flex">{titleConvert(lastName)}</section>
 
           <section className="d-flex">{titleConvert(name)}</section>
 
-          <p className="m-0">Full Stack Developer</p>
+          <p className="m-0">Full Stack & Blockchain Developer</p>
         </Col>
         <Col
           xs={12}
-          md={6}
+          lg={6}
           className="d-flex align-items-center justify-content-center mb-5"
           data-aos="zoom-in-up"
         >

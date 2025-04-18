@@ -5,11 +5,7 @@ import React from "react";
 
 function ItemStack({ href, img, title }) {
   return (
-    <Col
-      xs={4}
-      md={2}
-      className="d-flex align-items-center justify-content-center"
-    >
+    <Col xs={4} md={3} className="d-flex align-items-center justify-content-center">
       <a
         href={href}
         target="_blank"
