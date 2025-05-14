@@ -39,20 +39,20 @@ export const projects = [
     link: "https://meli-buscador-ijhvy19di-franrappavercel-outlookcom.vercel.app/",
   },
 
-  {
-    img: screenTrivia,
-    title: "Trivia Game",
-    description:
-      "Juego de preguntas y respuestas con opcion multiple-choice o verdadero/falso. Construido con JavaScript, HTML, CSS, jQuery, API y Firebase.",
-    githubLink: "https://github.com/franRappazzini/trivia_game",
-    link: "https://franrappazzini.github.io/trivia_game/",
-  },
-  {
-    img: screenReact,
-    title: "E-commerce React",
-    description:
-      "Funciones de carrito, favoritos, info detallada y mas. Construido con React, Context, Firebase y Bootstrap.",
-    githubLink: "https://github.com/franRappazzini/Proyecto_Final_React_Coder",
-    link: "https://proyecto-final-react-coder-one.vercel.app/",
-  },
+  // {
+  //   img: screenTrivia,
+  //   title: "Trivia Game",
+  //   description:
+  //     "Juego de preguntas y respuestas con opcion multiple-choice o verdadero/falso. Construido con JavaScript, HTML, CSS, jQuery, API y Firebase.",
+  //   githubLink: "https://github.com/franRappazzini/trivia_game",
+  //   link: "https://franrappazzini.github.io/trivia_game/",
+  // },
+  // {
+  //   img: screenReact,
+  //   title: "E-commerce React",
+  //   description:
+  //     "Funciones de carrito, favoritos, info detallada y mas. Construido con React, Context, Firebase y Bootstrap.",
+  //   githubLink: "https://github.com/franRappazzini/Proyecto_Final_React_Coder",
+  //   link: "https://proyecto-final-react-coder-one.vercel.app/",
+  // },
 ];

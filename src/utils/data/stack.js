@@ -29,6 +29,11 @@ import typescript from "../../assets/img/stack/typescript.png";
 
 export const stack = [
   {
+    title: "Rust",
+    img: rust,
+    href: "https://www.rust-lang.org",
+  },
+  {
     title: "JavaScript",
     img: javascript,
     href: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -37,11 +42,6 @@ export const stack = [
     title: "TypeScript",
     img: typescript,
     href: "https://www.typescriptlang.org/",
-  },
-  {
-    title: "Rust",
-    img: rust,
-    href: "https://www.rust-lang.org",
   },
   {
     title: "Solidity",
@@ -59,9 +59,9 @@ export const stack = [
   //   href: "https://developer.mozilla.org/en-US/docs/Web/CSS",
   // },
   {
-    title: "SQL",
-    img: sql,
-    href: "https://www.w3schools.com/sql/sql_intro.asp",
+    title: "Anchor",
+    img: anchor,
+    href: "https://www.anchor-lang.com/docs/",
   },
   {
     title: "React",
@@ -72,11 +72,6 @@ export const stack = [
     title: "Next.js",
     img: nextjs,
     href: "https://nextjs.org/",
-  },
-  {
-    title: "Anchor",
-    img: anchor,
-    href: "https://www.anchor-lang.com/docs/",
   },
   {
     title: "Redux",
@@ -92,6 +87,11 @@ export const stack = [
     title: "Express",
     img: express,
     href: "https://expressjs.com/",
+  },
+  {
+    title: "SQL",
+    img: sql,
+    href: "https://www.w3schools.com/sql/sql_intro.asp",
   },
   // {
   //   title: "jQuery",
