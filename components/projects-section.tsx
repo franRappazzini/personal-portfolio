@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github } from "lucide-react";
+import Link from "next/link";
 
 export function ProjectsSection() {
   return (
@@ -30,7 +31,7 @@ export function ProjectsSection() {
             className="border-border text-muted-foreground hover:bg-accent hover:text-foreground"
             asChild
           >
-            <a
+            <Link
               href="https://github.com/franRappazzini?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
@@ -38,7 +39,7 @@ export function ProjectsSection() {
             >
               <Github className="h-4 w-4" />
               View All Repositories
-            </a>
+            </Link>
           </Button>
         </div>
       </div>
