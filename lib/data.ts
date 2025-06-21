@@ -159,3 +159,30 @@ export const technologies = [
     link: "https://git-scm.com/",
   },
 ];
+
+export const projects = [
+  {
+    name: "DeFi Liquidity Protocol",
+    description:
+      "Automated market maker with advanced liquidity management and yield farming capabilities built on Solana.",
+    stack: "Rust, Anchor, TypeScript",
+  },
+  {
+    name: "NFT Marketplace",
+    description:
+      "Full-featured NFT marketplace with royalties, auctions, and cross-chain compatibility.",
+    stack: "Solana, React, Next.js",
+  },
+  {
+    name: "Cross-Chain Bridge",
+    description:
+      "Secure bridge protocol enabling asset transfers between Ethereum and Solana networks.",
+    stack: "Rust, Solidity, Web3.js",
+  },
+  {
+    name: "DAO Governance Platform",
+    description:
+      "Decentralized governance system with proposal creation, voting mechanisms, and treasury management.",
+    stack: "Anchor, TypeScript, React",
+  },
+];
