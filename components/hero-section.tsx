@@ -1,6 +1,7 @@
 import { FileText, Github, Linkedin } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export function HeroSection() {
   return (
@@ -14,56 +15,41 @@ export function HeroSection() {
         </div>
 
         <div className="flex items-center justify-center gap-6 pt-8">
-          <Button
-            variant="ghost"
-            size="lg"
-            className="p-3 hover:bg-accent transition-colors"
-            asChild
+          <Link
+            href="https://github.com/franRappazzini"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+            title="GitHub"
           >
-            <a
-              href="https://github.com/franRappazzini"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-              title="GitHub"
-            >
-              <Github className="h-6 w-6" />
-            </a>
-          </Button>
+            <Button variant="ghost" size="icon" className="h-14 w-14 p-3" asChild>
+              <Github strokeWidth={1} />
+            </Button>
+          </Link>
 
-          <Button
-            variant="ghost"
-            size="lg"
-            className="p-3 hover:bg-accent transition-colors"
-            asChild
+          <Link
+            href="https://linkedin.com/in/francisco-rappazzini"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            title="LinkedIn"
           >
-            <a
-              href="https://linkedin.com/in/francisco-rappazzini"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LinkedIn"
-              title="LinkedIn"
-            >
-              <Linkedin className="h-6 w-6" />
-            </a>
-          </Button>
+            <Button variant="ghost" size="icon" className="h-14 w-14 p-3" asChild>
+              <Linkedin strokeWidth={1} />
+            </Button>
+          </Link>
 
-          <Button
-            variant="ghost"
-            size="lg"
-            className="p-3 hover:bg-accent transition-colors"
-            asChild
+          <Link
+            href="https://drive.google.com/file/d/1oRL5EreKrt5P25ouy1d6TCQ4BMGBcOoX/view"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="CV"
+            title="CV"
           >
-            <a
-              href="https://drive.google.com/file/d/1oRL5EreKrt5P25ouy1d6TCQ4BMGBcOoX/view"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="CV"
-              title="CV"
-            >
-              <FileText className="h-6 w-6" />
-            </a>
-          </Button>
+            <Button variant="ghost" size="icon" className="h-14 w-14 p-3" asChild>
+              <FileText strokeWidth={1} />
+            </Button>
+          </Link>
         </div>
       </div>
     </section>

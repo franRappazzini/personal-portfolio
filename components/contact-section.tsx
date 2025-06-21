@@ -5,6 +5,7 @@ import { EMAILJS_PUBLIC_KEY, EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID } from "@/l
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Loader2Icon } from "lucide-react";
 import type React from "react";
 import { Textarea } from "@/components/ui/textarea";
 import { send } from "@emailjs/browser";
@@ -106,7 +107,14 @@ export function ContactSection() {
                 disabled={formData.isSubmitting}
                 className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-colors cursor-pointer"
               >
-                {formData.isSubmitting ? "Sending..." : "Send Message"}
+                {formData.isSubmitting ? (
+                  <>
+                    <Loader2Icon className="animate-spin" />
+                    Sending...
+                  </>
+                ) : (
+                  "Send Message"
+                )}
               </Button>
             </form>
           </CardContent>
