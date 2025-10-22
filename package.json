@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npx gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
