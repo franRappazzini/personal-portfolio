@@ -39,13 +39,7 @@ export function HeroSection() {
             </Button>
           </Link>
 
-          <Link
-            href="https://drive.google.com/file/d/1oRL5EreKrt5P25ouy1d6TCQ4BMGBcOoX/view"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="CV"
-            title="CV"
-          >
+          <Link href="/cv.pdf" aria-label="CV" title="CV">
             <Button variant="ghost" size="icon" className="h-14 w-14 p-3" asChild>
               <FileText strokeWidth={1} />
             </Button>
