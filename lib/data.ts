@@ -1,24 +1,24 @@
 export const experiences = [
   {
-    role: "Blockchain Developer",
+    role: "Solana Blockchain Developer",
     company: "Inside Dark Studio",
-    period: "April 2023 – Present",
+    period: "April 2023 – October 2025",
     description:
-      "I work collaboratively with the team to develop a wide range of applications, primarily focused on blockchain technology. My main tech stack includes Rust for writing smart contracts and Next.js with Tailwind CSS for building modern web interfaces.",
+      "Collaborating with the team on diverse client projects and products, I develop Rust Smart Contracts using Anchor for DeFi solutions, RWA, and Web3 gaming on Solana. My role also includes implementing TypeScript testing to ensure project quality and security, creating and managing AWS instances, and implementing client/server-side integrations.",
   },
   {
     role: "Full Stack & Blockchain Developer",
     company: "OPIS EcoWallet",
     period: "October 2022 – April 2023",
     description:
-      "Developed the main web application and integrated it with smart contracts using Hardhat, Next.js, Node.js, and styling libraries. Collaborated closely with the team to successfully launch the MVP to market.",
+      "Developed the primary web application, integrating it with smart contracts using Hardhat, Next.js, Node.js, and various styling libraries, and managing instances on AWS. Successfully collaborated with the team to achieve the MVP launch.",
   },
   {
     role: "Full Stack Web Developer",
     company: "Freelance",
     period: "August 2021 – August 2022",
     description:
-      "Developed a variety of websites—including static sites, dynamic apps, portfolios, and e-commerce—for diverse clients. Mainly used Next.js or React.js with Node.js, styling libraries or Sass, and SQL with ORM for database management.",
+      "Designed and launched various web solutions—including static websites, dynamic applications, personal portfolios, and e-commerce platforms—for a range of clients. Utilized a technology stack primarily consisting of Next.js/React.js, Node.js, styling libraries, and SQL via ORM.",
   },
 ];
 

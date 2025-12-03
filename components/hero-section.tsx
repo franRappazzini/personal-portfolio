@@ -10,7 +10,7 @@ export function HeroSection() {
         <div className="space-y-4">
           <h1 className="text-5xl md:text-7xl font-medium tracking-tight">Francisco Rappazzini</h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-light">
-            Blockchain Developer
+            Solana Blockchain Developer
           </p>
         </div>
 
