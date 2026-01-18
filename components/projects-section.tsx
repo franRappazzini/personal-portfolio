@@ -50,7 +50,7 @@ export function ProjectsSection() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Card className="bg-card border-border hover:bg-accent/50 transition-colors cursor-pointer h-full py-0">
+                <Card className="bg-card border-border hover:bg-accent/50 hover:shadow-lg hover:scale-[1.01] hover:border-primary/20 transition-all duration-200 cursor-pointer h-full py-0">
                   <CardContent className="p-3 flex flex-col gap-2">
                     <h3 className="text-sm font-semibold text-primary">{project.name}</h3>
                     {project.description && (
