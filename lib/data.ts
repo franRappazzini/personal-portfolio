@@ -1,24 +1,31 @@
 export const experiences = [
   {
     role: "Solana Blockchain Developer",
+    company: "Freelance",
+    period: "October 2025 – Present",
+    description:
+      "Design and development of custom Solana programs using Rust and Anchor for different clients and use cases. Worked on DeFi logic, token-based systems, and program integrations, delivering production-ready solutions with a strong focus on security, performance, and best practices. Responsible for testing, auditing, and integrating programs with backend and frontend systems while working directly with clients to deliver on time.",
+  },
+  {
+    role: "Solana Blockchain Developer",
     company: "Inside Dark Studio",
     period: "April 2023 – October 2025",
     description:
-      "Collaborating with the team on diverse client projects and products, I develop Rust Smart Contracts using Anchor for DeFi solutions, RWA, and Web3 gaming on Solana. My role also includes implementing TypeScript testing to ensure project quality and security, creating and managing AWS instances, and implementing client/server-side integrations.",
+      "Designed, developed, and deployed production-ready Solana programs using Rust and Anchor for DeFi, RWA, and Web3 gaming projects. Shipped secure and high-performance programs used in real client products, implemented integration and fuzz testing to improve reliability, and collaborated closely with frontend and backend teams. Managed AWS infrastructure and followed best practices to ensure scalability, security, and long-term maintainability.",
   },
   {
-    role: "Full Stack & Blockchain Developer",
+    role: "Full Stack Blockchain Developer",
     company: "OPIS EcoWallet",
     period: "October 2022 – April 2023",
     description:
-      "Developed the primary web application, integrating it with smart contracts using Hardhat, Next.js, Node.js, and various styling libraries, and managing instances on AWS. Successfully collaborated with the team to achieve the MVP launch.",
+      "Built the main web application and integrated it with blockchain smart contracts using Next.js, Node.js, and blockchain libraries. Contributed to full-stack architecture design, managed AWS services, and worked with the team to successfully deliver and launch the project MVP with stable frontend, backend, and blockchain integration.",
   },
   {
     role: "Full Stack Web Developer",
     company: "Freelance",
     period: "August 2021 – August 2022",
     description:
-      "Designed and launched various web solutions—including static websites, dynamic applications, personal portfolios, and e-commerce platforms—for a range of clients. Utilized a technology stack primarily consisting of Next.js/React.js, Node.js, styling libraries, and SQL via ORM.",
+      "Designed and developed multiple production web applications for different clients, including landing pages, dynamic platforms, and e-commerce solutions. Managed projects end-to-end using React/Next.js, Node.js, and SQL-based systems, delivering reliable and maintainable solutions that met client needs and deadlines.",
   },
 ];
 

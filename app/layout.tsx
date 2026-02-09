@@ -12,7 +12,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Rappazzini Portfolio",
-  description: "A portfolio showcasing my work and skills.",
+  description: "A portfolio showcasing my work, experience and skills.",
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
           attribute="class"
           defaultTheme="system"
           enableSystem
-          disableTransitionOnChange
+          disableTransitionOnChange={false}
         >
           <ThemeToggle />
 
