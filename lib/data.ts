@@ -36,14 +36,14 @@ export const technologies = [
     link: "https://www.rust-lang.org",
   },
   {
-    name: "JavaScript",
-    // img: javascript,
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-  },
-  {
     name: "TypeScript",
     // img: typescript,
     link: "https://www.typescriptlang.org/",
+  },
+  {
+    name: "JavaScript",
+    // img: javascript,
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
   },
   {
     name: "Solidity",
@@ -64,6 +64,11 @@ export const technologies = [
     name: "Anchor",
     // img: anchor,
     link: "https://www.anchor-lang.com/docs/",
+  },
+  {
+    name: "Pinocchio",
+    // img: anchor,
+    link: "https://github.com/anza-xyz/pinocchio",
   },
   {
     name: "React",
@@ -91,6 +96,11 @@ export const technologies = [
     link: "https://expressjs.com/",
   },
   {
+    name: "AWS",
+    // img: sql,
+    link: "https://aws.amazon.com/",
+  },
+  {
     name: "SQL",
     // img: sql,
     link: "https://www.w3schools.com/sql/sql_intro.asp",
@@ -110,11 +120,11 @@ export const technologies = [
   // img: less,
   //   link: "https://lesscss.org/",
   // },
-  {
-    name: "Tailwind",
-    // img: tailwind,
-    link: "https://tailwindcss.com",
-  },
+  // {
+  //   name: "Tailwind",
+  //   // img: tailwind,
+  //   link: "https://tailwindcss.com",
+  // },
   {
     name: "PostgreSQL",
     // img: postgresql,
