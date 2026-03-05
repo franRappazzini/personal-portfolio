@@ -4,28 +4,28 @@ export const experiences = [
     company: "Freelance",
     period: "October 2025 – Present",
     description:
-      "Design and development of custom Solana programs using Rust and Anchor for different clients and use cases. Worked on DeFi logic, token-based systems, and program integrations, delivering production-ready solutions with a strong focus on security, performance, and best practices. Responsible for testing, auditing, and integrating programs with backend and frontend systems while working directly with clients to deliver on time.",
+      "Design and deployment of custom Solana programs using Rust, Anchor, and Pinocchio for DeFi and token-based systems. Projects are managed end-to-end, from architecture design to mainnet deployment, with strong attention to performance, efficiency, and reliability. Work includes optimization of compute usage and account structures, as well as structured testing and security reviews to ensure stable, production-ready releases tailored to client requirements.",
   },
   {
     role: "Solana Blockchain Developer",
     company: "Inside Dark Studio",
     period: "April 2023 – October 2025",
     description:
-      "Designed, developed, and deployed production-ready Solana programs using Rust and Anchor for DeFi, RWA, and Web3 gaming projects. Shipped secure and high-performance programs used in real client products, implemented integration and fuzz testing to improve reliability, and collaborated closely with frontend and backend teams. Managed AWS infrastructure and followed best practices to ensure scalability, security, and long-term maintainability.",
+      "Led the design and delivery of production grade Solana programs for DeFi, RWA, and Web3 gaming products. Oversaw small teams and coordinated on-chain and off-chain integrations to ensure seamless system functionality. Reliability was strengthened through integration and fuzz testing, maintaining high standards of security, optimization, and long term maintainability across all delivered solutions.",
   },
   {
     role: "Full Stack Blockchain Developer",
     company: "OPIS EcoWallet",
     period: "October 2022 – April 2023",
     description:
-      "Built the main web application and integrated it with blockchain smart contracts using Next.js, Node.js, and blockchain libraries. Contributed to full-stack architecture design, managed AWS services, and worked with the team to successfully deliver and launch the project MVP with stable frontend, backend, and blockchain integration.",
+      "Contributed to the architecture and development of the core web application, integrating blockchain smart contracts into the platform and supporting a successful MVP launch. Built scalable full stack solutions using Next.js and Node.js, ensuring stable interaction between frontend, backend, and blockchain layers to deliver a cohesive and reliable product experience.",
   },
   {
     role: "Full Stack Web Developer",
     company: "Freelance",
     period: "August 2021 – August 2022",
     description:
-      "Designed and developed multiple production web applications for different clients, including landing pages, dynamic platforms, and e-commerce solutions. Managed projects end-to-end using React/Next.js, Node.js, and SQL-based systems, delivering reliable and maintainable solutions that met client needs and deadlines.",
+      "Design and delivery of multiple production ready web applications, managing projects from architecture to deployment. Development of scalable solutions using React/Next.js and Node.js, translating business requirements into effective technical implementations while ensuring performance, stability, and long term maintainability.",
   },
 ];
 
