@@ -1,4 +1,4 @@
-import { FileText, Github, Linkedin } from "lucide-react";
+import { FileText, Github, Linkedin, Mail } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
@@ -39,7 +39,19 @@ export function HeroSection() {
             </Button>
           </Link>
 
-          <Link href="/cv.pdf" aria-label="CV" title="CV">
+          <Link
+            href="mailto:franciscorappazzini@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Gmail"
+            title="Gmail"
+          >
+            <Button variant="ghost" size="icon" className="h-14 w-14 p-3" asChild>
+              <Mail strokeWidth={1} />
+            </Button>
+          </Link>
+
+          <Link href="/cv.pdf" aria-label="CV" title="CV" target="_blank" rel="noopener noreferrer">
             <Button variant="ghost" size="icon" className="h-14 w-14 p-3" asChild>
               <FileText strokeWidth={1} />
             </Button>
