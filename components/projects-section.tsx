@@ -42,46 +42,9 @@ export function ProjectsSection() {
         {loading ? (
           <div className="text-center text-muted-foreground mb-12">Loading projects...</div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-12">
-            {projects.map((project, index) => (
-              <Link
-                key={index}
-                href={`https://github.com/${project.author}/${project.name}`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Card className="bg-card border-border hover:bg-accent/50 hover:shadow-lg hover:scale-[1.01] hover:border-primary/20 transition-all duration-200 cursor-pointer h-full py-0">
-                  <CardContent className="p-3 flex flex-col gap-2">
-                    <h3 className="text-sm font-semibold text-primary">{project.name}</h3>
-                    {project.description && (
-                      <p className="text-xs text-muted-foreground leading-relaxed">
-                        {project.description}
-                      </p>
-                    )}
-                    <div className="flex items-center gap-3 mt-auto pt-1">
-                      <div className="flex items-center gap-1.5">
-                        <span
-                          className="w-2.5 h-2.5 rounded-full"
-                          style={{ backgroundColor: project.languageColor }}
-                        />
-                        <span className="text-xs text-muted-foreground">{project.language}</span>
-                      </div>
-                      {project.stars > 0 && (
-                        <div className="flex items-center gap-1">
-                          <Star className="w-3 h-3 text-muted-foreground" />
-                          <span className="text-xs text-muted-foreground">{project.stars}</span>
-                        </div>
-                      )}
-                      {project.forks > 0 && (
-                        <div className="flex items-center gap-1">
-                          <GitFork className="w-3 h-3 text-muted-foreground" />
-                          <span className="text-xs text-muted-foreground">{project.forks}</span>
-                        </div>
-                      )}
-                    </div>
-                  </CardContent>
-                </Card>
-              </Link>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+            {projects.map((project) => (
+              <ProjectCard {...project} key={project.name} />
             ))}
           </div>
         )}
@@ -105,5 +68,45 @@ export function ProjectsSection() {
         </div>
       </div>
     </section>
+  );
+}
+
+function ProjectCard(project: PinnedRepo) {
+  return (
+    <Link
+      href={`https://github.com/${project.author}/${project.name}`}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Card className="bg-card border-border hover:bg-accent/50 hover:shadow-lg hover:scale-[1.01] hover:border-primary/20 transition-all duration-200 cursor-pointer h-full py-0">
+        <CardContent className="p-4 flex flex-col gap-3 h-full justify-between">
+          <h3 className="text-sm font-semibold text-primary">{project.name}</h3>
+          {project.description && (
+            <p className="text-xs text-muted-foreground leading-relaxed">{project.description}</p>
+          )}
+          <div className="flex items-center gap-3 pt-1">
+            <div className="flex items-center gap-1.5">
+              <span
+                className="w-2.5 h-2.5 rounded-full"
+                style={{ backgroundColor: project.languageColor }}
+              />
+              <span className="text-xs text-muted-foreground">{project.language}</span>
+            </div>
+            {project.stars > 0 && (
+              <div className="flex items-center gap-1">
+                <Star className="w-3 h-3 text-muted-foreground" />
+                <span className="text-xs text-muted-foreground">{project.stars}</span>
+              </div>
+            )}
+            {project.forks > 0 && (
+              <div className="flex items-center gap-1">
+                <GitFork className="w-3 h-3 text-muted-foreground" />
+                <span className="text-xs text-muted-foreground">{project.forks}</span>
+              </div>
+            )}
+          </div>
+        </CardContent>
+      </Card>
+    </Link>
   );
 }

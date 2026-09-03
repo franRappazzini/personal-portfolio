@@ -4,14 +4,14 @@ export const experiences = [
     company: "Freelance",
     period: "October 2025 – Present",
     description:
-      "Design and deployment of custom Solana programs using Rust, Anchor, and Pinocchio for DeFi and token-based systems. Projects are managed end-to-end, from architecture design to mainnet deployment, with strong attention to performance, efficiency, and reliability. Work includes optimization of compute usage and account structures, as well as structured testing and security reviews to ensure stable, production-ready releases tailored to client requirements.",
+      "Design and deployment of custom Solana programs using Rust, Anchor, and Pinocchio for decentralized protocols, with an absolute focus on compute unit optimization and efficient account structuring. Architected and developed an ultra low latency gRPC data streaming ecosystem in Rust, building a custom event proxy and Terminal UI client that integrates with a Solana Geyser plugin. Engineered supporting distributed microservices utilizing NATS for internal messaging, Redis for client authentication token validation, PostgreSQL for persistent data caching, and Prometheus/Grafana for infrastructure telemetry.",
   },
   {
-    role: "Solana Blockchain Developer",
+    role: "Rust & Solana Blockchain Developer",
     company: "Inside Dark Studio",
     period: "April 2023 – October 2025",
     description:
-      "Led the design and delivery of production grade Solana programs for DeFi, RWA, and Web3 gaming products. Oversaw small teams and coordinated on-chain and off-chain integrations to ensure seamless system functionality. Reliability was strengthened through integration and fuzz testing, maintaining high standards of security, optimization, and long term maintainability across all delivered solutions.",
+      "Led small engineering teams in the design, delivery, and testing of production grade Solana programs for DeFi, RWA, and Web3 gaming products. Co-managed physical, bare metal datacenter infrastructure to host resilient distributed systems, directly provisioning, configuring, and maintaining high performance Internet Computer (ICP) nodes under strict network isolation. Maximized system availability and codebase security through integration testing, automated fuzz testing, and continuous hardware level performance monitoring.",
   },
   {
     role: "Full Stack Blockchain Developer",
@@ -26,6 +26,29 @@ export const experiences = [
     period: "August 2021 – August 2022",
     description:
       "Design and delivery of multiple production ready web applications, managing projects from architecture to deployment. Development of scalable solutions using React/Next.js and Node.js, translating business requirements into effective technical implementations while ensuring performance, stability, and long term maintainability.",
+  },
+];
+
+export const contributions = [
+  {
+    repo: "otter-sec/anchor",
+    prNumber: 4944,
+    status: "merged",
+    title: "feat(lang-v2): support Sysvar<SysvarInstructions> for introspection",
+    additions: 514,
+    deletions: 37,
+    filesSummary: "lang-v2/src/accounts/sysvar.rs +9 more",
+    href: "https://github.com/otter-sec/anchor/pull/4944",
+  },
+  {
+    repo: "MeteoraAg/damm-v2-sdk",
+    prNumber: 110,
+    status: "open",
+    title: "feat: add Anchor CPI examples for pool initialization and swap2 with tests",
+    additions: 18007,
+    deletions: 1,
+    filesSummary: "examples/anchor/programs/cpi-example-damm-v2/src/lib.rs +18 more",
+    href: "https://github.com/MeteoraAg/damm-v2-sdk/pull/110",
   },
 ];
 
@@ -70,31 +93,31 @@ export const technologies = [
     // img: anchor,
     link: "https://github.com/anza-xyz/pinocchio",
   },
-  {
-    name: "React",
-    // img: react,
-    link: "https://reactjs.org/",
-  },
+  // {
+  //   name: "React",
+  //   // img: react,
+  //   link: "https://reactjs.org/",
+  // },
   {
     name: "Next.js",
     // img: nextjs,
     link: "https://nextjs.org/",
   },
-  {
-    name: "Redux",
-    // img: redux,
-    link: "https://redux.js.org/",
-  },
+  // {
+  //   name: "Redux",
+  //   // img: redux,
+  //   link: "https://redux.js.org/",
+  // },
   {
     name: "Node JS",
     // img: nodejs,
     link: "https://nodejs.org/en/",
   },
-  {
-    name: "Express",
-    // img: express,
-    link: "https://expressjs.com/",
-  },
+  // {
+  //   name: "Express",
+  //   // img: express,
+  //   link: "https://expressjs.com/",
+  // },
   {
     name: "AWS",
     // img: sql,
@@ -104,6 +127,21 @@ export const technologies = [
     name: "SQL",
     // img: sql,
     link: "https://www.w3schools.com/sql/sql_intro.asp",
+  },
+  {
+    name: "Docker",
+    // img: sql,
+    link: "https://www.docker.com",
+  },
+  {
+    name: "Prometheus",
+    // img: sql,
+    link: "https://prometheus.io",
+  },
+  {
+    name: "Ansible",
+    // img: sql,
+    link: "https://docs.ansible.com",
   },
   // {
   //   name: "jQuery",
@@ -125,16 +163,16 @@ export const technologies = [
   //   // img: tailwind,
   //   link: "https://tailwindcss.com",
   // },
-  {
-    name: "PostgreSQL",
-    // img: postgresql,
-    link: "https://www.postgresql.org/",
-  },
-  {
-    name: "Sequelize",
-    // img: sequelize,
-    link: "https://sequelize.org/",
-  },
+  // {
+  //   name: "PostgreSQL",
+  //   // img: postgresql,
+  //   link: "https://www.postgresql.org/",
+  // },
+  // {
+  //   name: "Sequelize",
+  //   // img: sequelize,
+  //   link: "https://sequelize.org/",
+  // },
   // {
   //   name: "MongoDB",
   // img: mongodb,
