@@ -1,4 +1,5 @@
 import { ContactSection } from "@/components/contact-section";
+import { ContributionSection } from "@/components/contribution-section";
 import { ExperienceSection } from "@/components/experience-section";
 import { Footer } from "@/components/footer";
 import { HeroSection } from "@/components/hero-section";
@@ -10,8 +11,9 @@ export default function Home() {
     <main className="bg-background text-foreground">
       <HeroSection />
       <ExperienceSection />
-      <TechStackSection />
+      <ContributionSection />
       <ProjectsSection />
+      <TechStackSection />
       <ContactSection />
       <Footer />
     </main>
