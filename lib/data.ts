@@ -41,14 +41,14 @@ export const contributions = [
     href: "https://github.com/otter-sec/anchor/pull/4944",
   },
   {
-    repo: "MeteoraAg/damm-v2-sdk",
-    prNumber: 110,
+    repo: "MeteoraAg/damm-v2",
+    prNumber: 163,
     status: "open",
     title: "feat: add Anchor CPI examples for pool initialization and swap2 with tests",
-    additions: 18007,
-    deletions: 1,
-    filesSummary: "examples/anchor/programs/cpi-example-damm-v2/src/lib.rs +18 more",
-    href: "https://github.com/MeteoraAg/damm-v2-sdk/pull/110",
+    additions: 18227,
+    deletions: 0,
+    filesSummary: "examples/anchor-cpi/programs/cpi-example-damm-v2/src/lib.rs +18 more",
+    href: "https://github.com/MeteoraAg/damm-v2/pull/163",
   },
 ];
 
